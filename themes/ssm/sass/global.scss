@@ -92,7 +92,8 @@ header {
 		#header_logo {
 			padding-top: 15px;
 			float: right !important;
-			width: 20em;
+			width: 50em;
+			margin-right: 1.5em;
 			@media (max-width: $screen-md) {
 				padding-top: 40px;
 			}

@@ -5757,7 +5757,8 @@ header {
     header .row #header_logo {
       padding-top: 15px;
       float: right !important;
-      width: 20em; }
+      width: 50em;
+      margin-right: 1.5em; }
       @media (max-width: 992px) {
         header .row #header_logo {
           padding-top: 40px; } }
