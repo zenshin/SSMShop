@@ -29,7 +29,6 @@
 			<div class="current">
 				<input type="hidden" name="id_currency" id="id_currency" value=""/>
 				<input type="hidden" name="SubmitCurrency" value="" />
-				<span class="cur-label">{l s='Currency' mod='blockcurrencies'} :</span>
 				{foreach from=$currencies key=k item=f_currency}
 					{if $cookie->id_currency == $f_currency.id_currency}<strong>{$f_currency.iso_code}</strong>{/if}
 				{/foreach}

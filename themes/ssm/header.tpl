@@ -76,54 +76,42 @@
 				<p>{l s='You cannot place a new order from your country.'}{if isset($geolocation_country) && $geolocation_country} <span class="bold">{$geolocation_country|escape:'html':'UTF-8'}</span>{/if}</p>
 			</div>
 		{/if}
-		<div id="page">
+	<div id="page">
 			<div class="header-container">
 				<header id="header">
-					{capture name='displayBanner'}{hook h='displayBanner'}{/capture}
-					{if $smarty.capture.displayBanner}
-						<div class="banner">
-							<div class="container">
-								<div class="row">
-									{$smarty.capture.displayBanner}
-								</div>
-							</div>
-						</div>
-					{/if}
 					{capture name='displayNav'}{hook h='displayNav'}{/capture}
 					{if $smarty.capture.displayNav}
 						<div class="nav">
-							<div class="container">
+							<div class="container-fluid">
 								<div class="row">
-									<nav>{$smarty.capture.displayNav}</nav>
-								</div>
+								<div class="col-md-7">
+									<div id="header_logo">
+										<a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}">
+											<img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/>
+										</a>
+									</div>
+									</div>		
+									<div class="col-md-5">
+									<nav>{$smarty.capture.displayNav}
+																</nav>
+								</div></div>
 							</div>
+							{if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
 						</div>
 					{/if}
-					<div>
-						<div class="container">
-							<div class="row">
-								<div id="header_logo">
-									<a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}">
-										<img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/>
-									</a>
-								</div>
-								{if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
-							</div>
-						</div>
-					</div>
+					
 				</header>
 			</div>
-			<div class="columns-container">
-				<div id="columns" class="container">
-					{if $page_name !='index' && $page_name !='pagenotfound'}
-						{include file="$tpl_dir./breadcrumb.tpl"}
-					{/if}
-					<div id="slider_row" class="row">
+			 <div id="slider_row" class="">
 						{capture name='displayTopColumn'}{hook h='displayTopColumn'}{/capture}
 						{if $smarty.capture.displayTopColumn}
-							<div id="top_column" class="center_column col-xs-12 col-sm-12">{$smarty.capture.displayTopColumn}</div>
+							<div id="top_column" class="center_column" style="width:100%">{$smarty.capture.displayTopColumn}</div>
 						{/if}
-					</div>
+				</div>
+			<div class="columns-container">
+            	
+				<div id="columns" class="container">
+				
 					<div class="row">
 						{if isset($left_column_size) && !empty($left_column_size)}
 						<div id="left_column" class="column col-xs-12 col-sm-{$left_column_size|intval}">{$HOOK_LEFT_COLUMN}</div>

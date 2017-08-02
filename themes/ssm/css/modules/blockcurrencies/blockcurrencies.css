@@ -1,6 +1,5 @@
 #currencies-block-top {
   float: right;
-  border-left: 1px solid #515151;
   position: relative; }
   @media (max-width: 479px) {
     #currencies-block-top {
@@ -46,7 +45,7 @@
     top: 37px;
     left: 0;
     width: 157px;
-    background: #333;
+    background: #00111C;
     z-index: 2; }
     #currencies-block-top ul li {
       color: #fff;

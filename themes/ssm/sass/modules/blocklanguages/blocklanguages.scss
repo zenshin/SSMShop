@@ -2,7 +2,6 @@
 @import "theme_variables";
 #languages-block-top {
 	float: right;
-	border-left: 1px solid #515151;
 	position: relative;
 	// max 479px
 	@media (max-width: $screen-xs - 1) {

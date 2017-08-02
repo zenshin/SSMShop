@@ -2,9 +2,10 @@
 @import "theme_variables";
 #search_block_top {
 	padding-top: 50px;
+	// display: inline !important;
 	#searchbox {
-		float: left;
-		width: 100%;
+		float: right;
+		width: 30%;
 	}
 	.btn.button-search {
 		background: $dark-background;
@@ -35,7 +36,7 @@
 	#search_query_top {
 		display: inline;
 		padding: 13px 60px 13px 13px;
-		height: 45px;
+		height: 30px;
 		background: $base-box-bg;
 		margin-right: 1px;
 	}
@@ -55,7 +56,8 @@
 		&.ac_odd {
 			background: $light-background;
 		}
-		&:hover, &.ac_over {
+		&:hover,
+		&.ac_over {
 			background: $base-box-bg;
 		}
 	}
@@ -67,16 +69,16 @@ form#searchbox {
 		color: $base-text-color;
 	}
 	input#search_query_block {
-		margin-right:10px;
-		max-width:222px;
-		margin-bottom:10px;
-		display:inline-block;
-		float:left;
+		margin-right: 10px;
+		max-width: 222px;
+		margin-bottom: 10px;
+		display: inline-block;
+		float: left;
 	}
 	.button.button-small {
-		float:left;
+		float: left;
 		i {
-			margin-right:0;
+			margin-right: 0;
 		}
 	}
 }

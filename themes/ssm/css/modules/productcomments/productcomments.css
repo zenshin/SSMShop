@@ -10,7 +10,7 @@
   #product_comments_block_extra .comments_note span,
   #product_comments_block_extra .star_content {
     float: left;
-    color: #333; }
+    color: #00111C; }
   #product_comments_block_extra .star_content {
     margin-top: 1px; }
   #product_comments_block_extra div.star:after {
@@ -71,7 +71,7 @@
     .comments_advices a.open-comment-form:before {
       content: "\f040"; }
     .comments_advices a:hover {
-      color: #333; }
+      color: #00111C; }
     .comments_advices a.reviews {
       border-right: 1px solid #d6d4d4;
       padding-right: 30px;
@@ -92,7 +92,7 @@
 
 #new_comment_form {
   overflow: hidden;
-  color: #333;
+  color: #00111C;
   text-align: left; }
   #new_comment_form h2 {
     margin-bottom: 10px; }
@@ -101,7 +101,7 @@
     font-size: 13px;
     color: #fff;
     text-transform: uppercase;
-    background: #333; }
+    background: #00111C; }
   #new_comment_form ul.grade_content {
     list-style-type: none;
     margin: 0 0 20px 0; }
@@ -204,7 +204,7 @@
               #product_comments_block_tab div.comment .comment_details ul li:before {
                 font-family: "FontAwesome";
                 content: "\f0da";
-                color: #333;
+                color: #00111C;
                 margin-right: 8px; } }
   #product_comments_block_tab div.star:after {
     content: "\f006";
@@ -221,7 +221,7 @@
     padding-top: 9px; }
     #product_comments_block_tab .comment_author_infos strong {
       display: block;
-      color: #333; }
+      color: #00111C; }
     #product_comments_block_tab .comment_author_infos em {
       color: #adadad; }
   #product_comments_block_tab a {

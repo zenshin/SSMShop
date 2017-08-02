@@ -11,7 +11,7 @@
   position: relative;
   z-index: 1;
   float: left;
-  /*****************************************************************************
+  	/*****************************************************************************
   						BXSlider Styles
   ********************************************************************************/ }
   @media (max-width: 767px) {
@@ -67,7 +67,8 @@
   #homepage-slider .bx-wrapper a {
     display: block; }
   #homepage-slider .bx-wrapper img {
-    height: auto; }
+    height: 80vh;
+    object-fit: cover; }
   #homepage-slider .bx-wrapper .bx-viewport {
     width: 100%;
     direction: ltr !important; }
@@ -112,7 +113,7 @@
       z-index: 2;
       padding: 16px 0 0 0; }
     #homepage-slider .bx-wrapper .bx-controls-direction a:hover:before {
-      background: #333;
+      background: #00111C;
       opacity: 0.83; }
   #homepage-slider .bx-wrapper .bx-prev {
     right: 60px;
@@ -123,6 +124,6 @@
     content: "\f054"; }
 
 .ie8 #homepage-slider .bx-wrapper .bx-controls-direction a:before {
-  background: #333; }
+  background: #00111C; }
 
 /*# sourceMappingURL=homeslider.css.map */
