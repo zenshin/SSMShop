@@ -110,7 +110,7 @@
 				</div>
 			<div class="columns-container">
             	
-				<div id="columns" class="container-fluid">
+				<div id="columns" class="container">
 				
 					<div class="row">
 						{if isset($left_column_size) && !empty($left_column_size)}

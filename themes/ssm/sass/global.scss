@@ -17,6 +17,12 @@ a:hover {
 	}
 }
 
+@media (min-width: 1200px) {
+	.columns-container .container {
+		max-width: 1410px;
+	}
+}
+
 body {
 	min-width: 320px;
 	height: 100%;
@@ -1744,7 +1750,7 @@ div.star a:hover {
 			}
 		}
 		a {
-			color: #777777;
+			color: #7C6945;
 			&:hover {
 				color: $light-text-color;
 			}
@@ -3523,4 +3529,21 @@ div.star.star_hover {
 
 .pointer-box {
 	cursor: pointer;
+}
+
+//Themeconfig
+#htmlcontent_home ul li img {
+	width: 100%;
+}
+
+.item-html {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	right: 0;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
 }
