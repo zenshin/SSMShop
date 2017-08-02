@@ -10,7 +10,7 @@
     display: inline-block;
     float: right;
     font-size: 18px;
-    color: #686666;
+    color: #7C6945;
     padding: 6px 0 0 0; }
   #header .shopping_cart > a:first-child:hover:after {
     content: "\f0d8";
@@ -32,7 +32,8 @@
     text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
     overflow: hidden; }
     @media (min-width: 768px) and (max-width: 991px) {
-      .shopping_cart > a:first-child span.ajax_cart_product_txt, .shopping_cart > a:first-child span.ajax_cart_product_txt_s {
+      .shopping_cart > a:first-child span.ajax_cart_product_txt,
+      .shopping_cart > a:first-child span.ajax_cart_product_txt_s {
         display: none !important; } }
     .shopping_cart > a:first-child b {
       color: #fff;
@@ -48,13 +49,14 @@
       padding-right: 15px; }
   .shopping_cart .ajax_cart_total {
     display: none !important; }
-  .shopping_cart .block_cart_expand:after, .shopping_cart .block_cart_collapse:after {
+  .shopping_cart .block_cart_expand:after,
+  .shopping_cart .block_cart_collapse:after {
     content: "\f0d7";
     font-family: "FontAwesome";
     display: inline-block;
     float: right;
     font-size: 18px;
-    color: #686666;
+    color: #7C6945;
     padding: 6px 0 0 0; }
   .shopping_cart .block_cart_collapse:after {
     content: "\f0d8";
@@ -163,7 +165,7 @@
   z-index: 100;
   display: none;
   height: auto;
-  background: #484848;
+  background: #7C6945;
   color: #fff;
   width: 270px; }
   @media (max-width: 480px) {
