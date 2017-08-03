@@ -134,7 +134,12 @@
 
 
 
-<p>{include file="$tpl_dir./0appointments-trans.tpl" s="base"}</p>
-<p>{include file="$tpl_dir./0appointments-trans.tpl" s="map-intro"}</p>
 
-<div><iframe width="1200" height="450" style="border: 0px; margin-left: auto; margin-right: auto;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJhYYjgvhMdkgRFH65TPedGhY&key=AIzaSyDWcJNQMYLFVUrEH1cjBANsDsm3AzJWwI4"></iframe></div>
+
+<div class="row">
+	<div class="col-xs-12 map">
+	<p>{include file="$tpl_dir./0appointments-trans.tpl" s="base"}</p>
+<p>{include file="$tpl_dir./0appointments-trans.tpl" s="map-intro"}</p>
+		<iframe width="100%" height="450" style="border: 0px; margin-left: auto; margin-right: auto;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJdd4hrwug2EcRmSrV3Vo6llI&key=AIzaSyDWcJNQMYLFVUrEH1cjBANsDsm3AzJWwI4" allowfullscreen></iframe>
+	</div>
+</div>
