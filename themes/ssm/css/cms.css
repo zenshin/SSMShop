@@ -80,7 +80,7 @@
       padding-bottom: 10px;
       font-size: 14px;
       font-weight: bold;
-      color: #333; }
+      color: #00111C; }
     #cms #center_column #admin-action-cms p .button {
       font: 700 17px/21px Arial, Helvetica, sans-serif;
       padding: 0;
@@ -104,7 +104,7 @@
           filter: none;
           background: #0084bf; }
       #cms #center_column #admin-action-cms p .button.lnk_view {
-        color: #333;
+        color: #00111C;
         text-shadow: 1px 1px white;
         border-color: #cacaca #b7b7b7 #9a9a9a #b7b7b7;
         background: #f7f7f7;

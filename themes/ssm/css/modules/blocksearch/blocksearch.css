@@ -1,10 +1,10 @@
 #search_block_top {
   padding-top: 50px; }
   #search_block_top #searchbox {
-    float: left;
-    width: 100%; }
+    float: right;
+    width: 50%; }
   #search_block_top .btn.button-search {
-    background: #333;
+    background: #00111C;
     display: block;
     position: absolute;
     top: 0;
@@ -28,7 +28,7 @@
   #search_block_top #search_query_top {
     display: inline;
     padding: 13px 60px 13px 13px;
-    height: 45px;
+    height: 30px;
     background: #fbfbfb;
     margin-right: 1px; }
 
@@ -51,7 +51,7 @@
 form#searchbox {
   position: relative; }
   form#searchbox label {
-    color: #333; }
+    color: #00111C; }
   form#searchbox input#search_query_block {
     margin-right: 10px;
     max-width: 222px;

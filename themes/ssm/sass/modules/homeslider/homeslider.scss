@@ -1,8 +1,10 @@
 @import "compass";
 @import "theme_variables";
+
 /******************************************************************************
 						Home Page Slider
 *******************************************************************************/
+
 #homepage-slider {
 	padding-left: 0;
 	padding-right: 0;
@@ -13,7 +15,8 @@
 	position: relative;
 	z-index: 1;
 	float: left;
-	@media (max-width: $screen-xs-max) { // max 767px
+	@media (max-width: $screen-xs-max) {
+		// max 767px
 		width: 100%;
 		max-width: 100%;
 		padding-top: 20px;
@@ -53,18 +56,18 @@
 			font-size: 1.2em;
 			text-transform: uppercase;
 		}
-		@media (max-width: $screen-lg){
+		@media (max-width: $screen-lg) {
 			padding: 20px;
 			font-size: 0.8em;
 		}
-		@media (max-width: $screen-sm){
+		@media (max-width: $screen-sm) {
 			padding: 30px;
 			font-size: 0.7em;
 			p {
 				font-size: 1.5em;
 			}
 		}
-		@media (max-width: $screen-xs){
+		@media (max-width: $screen-xs) {
 			padding: 30px;
 			font-size: 0.5em;
 			p {
@@ -72,7 +75,7 @@
 			}
 		}
 	}
-/*****************************************************************************
+	/*****************************************************************************
 						BXSlider Styles
 ********************************************************************************/
 	.bx-wrapper {
@@ -80,7 +83,8 @@
 			display: block;
 		}
 		img {
-			height: auto;
+			height: 80vh;
+			object-fit: cover;
 		}
 		.bx-viewport {
 			width: 100%;
@@ -150,8 +154,9 @@
 		}
 	}
 }
+
 .ie8 {
-	#homepage-slider{
+	#homepage-slider {
 		.bx-wrapper .bx-controls-direction a {
 			&:before {
 				background: $dark-background;
