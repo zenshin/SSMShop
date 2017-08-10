@@ -28,7 +28,9 @@
 		{foreach from=$languages key=k item=language name="languages"}
 			{if $language.iso_code == $lang_iso}
 				<div class="current">
-					<span>{$language.name|regex_replace:"/\s\(.*\)$/":""}</span>
+					<!-- Flag image -->		
+			<img style="margin-right:5px;" src="{$img_lang_dir}{$language.id_lang}.jpg" alt="{$language.iso_code}" width="18" /><!-- /Flag image -->
+		<span>{$language.name|regex_replace:"/\s.*$/":""}</span>
 				</div>
 			{/if}
 		{/foreach}
@@ -38,12 +40,15 @@
 				{if $language.iso_code != $lang_iso}
 					{assign var=indice_lang value=$language.id_lang}
 					{if isset($lang_rewrite_urls.$indice_lang)}
-						<a href="{$lang_rewrite_urls.$indice_lang|escape:'html':'UTF-8'}" title="{$language.name|escape:'html':'UTF-8'}" rel="alternate" hreflang="{$language.iso_code|escape:'html':'UTF-8'}">
+						<a href="{$lang_rewrite_urls.$indice_lang|escape:'html':'UTF-8'}" title="{$language.name}">
 					{else}
-						<a href="{$link->getLanguageLink($language.id_lang)|escape:'html':'UTF-8'}" title="{$language.name|escape:'html':'UTF-8'}" rel="alternate" hreflang="{$language.iso_code|escape:'html':'UTF-8'}">
+						<a href="{$link->getLanguageLink($language.id_lang)|escape:'html':'UTF-8'}" title="{$language.name}">
 					{/if}
 				{/if}
-						<span>{$language.name|regex_replace:"/\s\(.*\)$/":""}</span>
+				<span><!-- Flag image -->
+				<img style="margin-right:5px;" src="{$img_lang_dir}{$language.id_lang}.jpg" alt="{$language.iso_code}" width="18" />
+				<!-- /Flag image-->
+				{$language.name|regex_replace:"/\s.*$/":""}</span>
 				{if $language.iso_code != $lang_iso}
 					</a>
 				{/if}

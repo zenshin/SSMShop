@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 /* product desc */
 /* primary_block ***************************************************************************** */
 .primary_block {
@@ -13,7 +14,7 @@
   font-weight: 200;
   margin: 3px 0 8px;
   font-size: 19px;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 .box-security .product-heading-h5 {
   margin: 3px 0 -8px; }
@@ -785,7 +786,7 @@ table.table-product-discounts {
   font-weight: 600;
   font-size: 29px;
   line-height: 32px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #00111C; }
   @media (max-width: 991px) {
     .our_price_display {
@@ -806,7 +807,7 @@ table.table-product-discounts {
   font-size: 13px;
   text-decoration: line-through;
   display: inline-block;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 23px; }
 
 #reduction_percent,
@@ -814,7 +815,7 @@ table.table-product-discounts {
   margin-right: 10px;
   padding: 1px 2px;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 21px;
   line-height: 23px;
   color: #fff;

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 #currencies-block-top {
   float: right;
   position: relative; }
@@ -8,7 +9,7 @@
     display: none; }
   #currencies-block-top div.current {
     font-weight: bold;
-    padding: 8px 10px 10px 10px;
+    padding: 8px 5px 10px 5px;
     color: #fff;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
     cursor: pointer;
@@ -19,7 +20,8 @@
         padding: 9px 5px 10px;
         font-size: 11px; } }
     #currencies-block-top div.current strong {
-      color: #ffffff; }
+      color: #ffffff;
+      font-size: 12px; }
     #currencies-block-top div.current:hover, #currencies-block-top div.current.active {
       background: #2b2b2b; }
     #currencies-block-top div.current:after {

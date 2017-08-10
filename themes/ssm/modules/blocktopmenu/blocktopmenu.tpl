@@ -2,6 +2,9 @@
 	<!-- Menu -->
 	<div id="block_top_menu" class="sf-contener clearfix col-lg-12">
 		<div class="cat-title">{l s="Menu" mod="blocktopmenu"}</div>
+		<a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}">
+											<img class="logo-min img-responsive" src="/img/ssmlogolength.png" alt="{$shop_name|escape:'html':'UTF-8'}"/>
+										</a>
 		<ul class="sf-menu clearfix menu-content">
 			{$MENU}
 			{if $MENU_SEARCH}

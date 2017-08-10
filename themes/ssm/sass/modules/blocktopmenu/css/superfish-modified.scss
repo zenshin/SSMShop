@@ -40,6 +40,7 @@
 
 .sf-menu ul li {
 	width: 100%;
+	text-align: left;
 }
 
 .sf-menu li:hover {
@@ -85,7 +86,7 @@
 	>a:hover,
 	&.sfHoverForce>a {
 		background: $light-background; // border-bottom-color: #666666;
-		color: $base-text-color;
+		color: $light-text-color;
 	}
 }
 

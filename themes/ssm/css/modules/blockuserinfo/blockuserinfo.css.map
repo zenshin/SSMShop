@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAEA,iBAAkB;EACjB,KAAK,EAAE,KAAK;EACX,mBAAE;IACF,KAAK,EC6CiB,IAAiB;ID5CvC,WAAW,EAAE,IAAI;IACjB,OAAO,EAAE,KAAK;IACd,OAAO,EAAE,gBAAgB;IACzB,MAAM,EAAE,OAAO;IACf,WAAW,EAAC,IAAI;IAChB,yBAAmC;MAPnC,mBAAE;QAQD,SAAS,EAAE,IAAI;IAEhB,qDAAkB;MACjB,UAAU,EAAE,OAAO",
-"sources": ["../../../sass/modules/blockuserinfo/blockuserinfo.scss","../../../sass/_theme_variables.scss"],
+"mappings": "AACQ,8DAAsD;ACC9D,iBAAkB;EACjB,KAAK,EAAE,KAAK;EACX,mBAAE;IACF,KAAK,ED+CiB,IAAiB;IC9CvC,WAAW,EAAE,IAAI;IACjB,OAAO,EAAE,KAAK;IACd,OAAO,EAAE,gBAAgB;IACzB,MAAM,EAAE,OAAO;IACf,WAAW,EAAC,IAAI;IAChB,yBAAmC;MAPnC,mBAAE;QAQD,SAAS,EAAE,IAAI;IAEhB,qDAAkB;MACjB,UAAU,EAAE,OAAO",
+"sources": ["../../../sass/_theme_variables.scss","../../../sass/modules/blockuserinfo/blockuserinfo.scss"],
 "names": [],
 "file": "blockuserinfo.css"
 }

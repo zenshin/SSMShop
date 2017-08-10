@@ -2,8 +2,7 @@
 @import "theme_variables";
 #currencies-block-top {
 	float: right;
-	position: relative;
-	// max 479px
+	position: relative; // max 479px
 	@media (max-width: $screen-xs - 1) {
 		width: 25%;
 	}
@@ -12,11 +11,11 @@
 	}
 	div.current {
 		font-weight: bold;
-		padding: 8px 10px 10px 10px;
+		padding: 8px 5px 10px 5px;
 		color: $light-text-color;
-		text-shadow: 1px 1px rgba(0,0,0,0.2);
+		text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
 		cursor: pointer;
-		line-height:18px;
+		line-height: 18px;
 		@media (max-width: $screen-xs - 1) {
 			text-align: center;
 			padding: 9px 5px 10px;
@@ -24,8 +23,10 @@
 		}
 		strong {
 			color: #ffffff;
+			font-size: 12px;
 		}
-		&:hover, &.active {
+		&:hover,
+		&.active {
 			background: #2b2b2b;
 		}
 		&:after {
@@ -35,8 +36,7 @@
 			line-height: 18px;
 			color: #7C6945;
 			vertical-align: -2px;
-			padding-left: 12px;
-			// max 479px
+			padding-left: 12px; // max 479px
 			@media (max-width: $screen-xs - 1) {
 				padding-left: 2px;
 				font-size: 13px;
@@ -64,12 +64,13 @@
 			line-height: 35px;
 			font-size: 13px;
 			a,
-			> span {
+			>span {
 				padding: 0 10px 0 12px;
 				display: block;
 				color: $light-text-color;
 			}
-			&.selected, &:hover a {
+			&.selected,
+			&:hover a {
 				background: #7C6945;
 			}
 		}

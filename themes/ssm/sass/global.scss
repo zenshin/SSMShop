@@ -111,6 +111,12 @@ header {
 			}
 		}
 	}
+	.logo-min {
+		max-width: 300px;
+		display: none;
+		position: absolute;
+		z-index: 2;
+	}
 	@media (min-width: $screen-xs-max) {
 		.col-sm-4+.col-sm-4+.col-sm-4 {
 			float: right;
