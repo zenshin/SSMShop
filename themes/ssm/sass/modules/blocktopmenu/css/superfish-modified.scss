@@ -86,7 +86,7 @@
 	>a:hover,
 	&.sfHoverForce>a {
 		background: $light-background; // border-bottom-color: #666666;
-		color: $light-text-color;
+		color: $base-text-color;
 	}
 }
 
@@ -105,14 +105,14 @@
 		padding-right: 10px;
 	}
 	&:hover {
-		color: $base-text-color;
+		color: $base-heading-color;
 	}
 }
 
 .sf-menu li ul {
 	display: none;
 	left: 0;
-	top: 35px;
+	top: 45px;
 	/* match top ul list item height */
 	z-index: 99;
 	padding: 12px 0px 18px 0px;

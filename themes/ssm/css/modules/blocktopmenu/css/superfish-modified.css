@@ -67,7 +67,7 @@
   .sf-menu > li.sfHover > a,
   .sf-menu > li > a:hover, .sf-menu > li.sfHoverForce > a {
     background: #fff;
-    color: #fff; }
+    color: #00111C; }
 
 .sf-menu li li li a {
   display: inline-block;
@@ -83,12 +83,12 @@
     font-family: "FontAwesome";
     padding-right: 10px; }
   .sf-menu li li li a:hover {
-    color: #00111C; }
+    color: #555454; }
 
 .sf-menu li ul {
   display: none;
   left: 0;
-  top: 35px;
+  top: 45px;
   /* match top ul list item height */
   z-index: 99;
   padding: 12px 0px 18px 0px;
