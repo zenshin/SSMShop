@@ -114,7 +114,6 @@ $(document).ready(function () {
 		scroll_start = $(this).scrollTop();
 		if (scroll_start > offset.top) {
 			$('#block_top_menu').addClass('navbar-fixed-top').css('margin-top', '0').css('padding', '0');
-			$('.sf-menu, .sf-menu * ').css('padding', '10px');
 			$('.logo-min').css('display', 'inline-block');
 		} else {
 			$('#block_top_menu').removeClass('navbar-fixed-top');
