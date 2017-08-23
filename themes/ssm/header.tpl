@@ -101,12 +101,14 @@
 					
 				</header>
 			</div>
+			<div class="curtain">
 			 <div id="slider_row" class="">
 						{capture name='displayTopColumn'}{hook h='displayTopColumn'}{/capture}
 						{if $smarty.capture.displayTopColumn}
 							<div id="top_column" class="center_column" style="width:100%">{$smarty.capture.displayTopColumn}</div>
 						{/if}
 				</div>
+				
 			<div class="columns-container">
             	
 				<div id="columns" class="container">

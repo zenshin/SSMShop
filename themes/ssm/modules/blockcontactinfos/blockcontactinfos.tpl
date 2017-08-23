@@ -40,6 +40,12 @@
             		<span>{$blockcontactinfos_phone|escape:'html':'UTF-8'}</span>
             	</li>
             {/if}
+			{if $blockcontactinfos_cellphone != ''}
+            	<li>
+            		<i class="icon-mobile"></i>{l s='Mobile:' mod='blockcontactinfos'} 
+            		<span>{$blockcontactinfos_cellphone|escape:'html':'UTF-8'}</span>
+            	</li>
+            {/if}
             {if $blockcontactinfos_email != ''}
             	<li>
             		<i class="icon-envelope-alt"></i>{l s='Email:' mod='blockcontactinfos'} 

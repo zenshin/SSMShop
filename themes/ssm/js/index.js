@@ -31,11 +31,21 @@ $(document).ready(function () {
 	$(document).scroll(function () {
 		scroll_start = $(this).scrollTop();
 		if (scroll_start > offset.top) {
-			$('#block_top_menu').addClass('navbar-fixed-top').css('margin-top', '0').css('padding', '0');
+			$('#block_top_menu').addClass('navbar-fixed-top');
 			$('.logo-min').css('display', 'inline-block');
 		} else {
 			$('#block_top_menu').removeClass('navbar-fixed-top');
 			$('.logo-min').css('display', 'none');
+		}
+	});
+	var startchangebottom = $('.home-page-tabs');
+	var offsetbottom = startchangebottom.offset();
+	$(document).scroll(function () {
+		scroll_start = $(this).scrollTop();
+		if (scroll_start > offset.top) {
+			$('.product-name').addClass('visible').css('display','visible');
+		} else {
+			$('.product-name').removeClass('visible');
 		}
 	});
 });

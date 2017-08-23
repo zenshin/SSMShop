@@ -12,13 +12,12 @@
 .sf-menu,
 .sf-menu * {
 	margin: 0;
-	padding: 10px;
+	padding: 6px;
 	list-style: none;
 }
 
 .sf-menu {
 	position: relative;
-	padding: 0;
 	width: 100%; // border-bottom: 3px solid #e9e9e9;
 	background: $dark-background;
 	text-align: center;

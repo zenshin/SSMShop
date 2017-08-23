@@ -2,5 +2,8 @@
 @import "theme_variables";
 #block_top_menu {
 	padding-top: 0 !important;
-	margin-bottom: 10px;
+}
+.navbar-fixed-top {
+	margin-top: 0;
+	padding: 0;
 }

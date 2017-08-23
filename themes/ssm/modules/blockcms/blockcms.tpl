@@ -65,7 +65,29 @@
 	{/foreach}
 	<!-- /Block CMS module -->
 {else}
+
 	<!-- Block CMS module footer -->
+		<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
+	<h4>
+			<a href="{$link->getPageLink($contact_url, true)|escape:'html':'UTF-8'}" title="{l s='Contact us' mod='blockcms'}">
+				Art of making
+			</a>
+		</h4>
+		</section>
+	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
+	<h4>
+			<a href="{$link->getPageLink($contact_url, true)|escape:'html':'UTF-8'}" title="{l s='Contact us' mod='blockcms'}">
+				Media
+			</a>
+		</h4>
+		</section>
+		<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
+	<h4>
+			<a href="{$link->getPageLink($contact_url, true)|escape:'html':'UTF-8'}" title="{l s='Contact us' mod='blockcms'}">
+				Testimonials
+			</a>
+		</h4>
+		</section>
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 		<h4>{l s='Information' mod='blockcms'}</h4>
 		<ul class="toggle-footer">
@@ -121,12 +143,16 @@
 			</li>
 			{/if}
 		</ul>
-		{$footer_text}
+		
 	</section>
+
+				{$footer_text}
+
 	{if $display_poweredby}
 	<section class="bottom-footer col-xs-12">
 		<div>
-			{l s='[1] %3$s %2$s - Ecommerce software by %1$s [/1]' mod='blockcms' sprintf=['PrestaShop™', 'Y'|date, '©'] tags=['<a class="_blank" href="http://www.prestashop.com">'] nocache}
+		<img class="logo-bot" src="/img/mrdike.png" alt="inspired by Mr. Dike">
+			{l s='[1] %3$s %2$s - Ecommerce software by %1$s [/1]' mod='blockcms' sprintf=['Suitsurmesur™', 'Y'|date, '©'] tags=['<a class="_blank" href="http://www.suitsurmesur.com">'] nocache}
 		</div>
 	</section>
 	{/if}
