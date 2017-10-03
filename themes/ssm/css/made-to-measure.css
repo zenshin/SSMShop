@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:800");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'Great-Day-Personal-Use';
+  src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+#madetomeasure #center_column {
+  padding: 0; }
+#madetomeasure .jumbotron {
+  background: url("../img/tailoring.jpg") center bottom no-repeat;
+  height: 60vh; }
+#madetomeasure .row {
+  margin: 0; }
+#madetomeasure h1 {
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
+  font-size: 2.5em;
+  padding: 5em 0;
+  text-transform: uppercase;
+  color: #fff; }
+#madetomeasure h4 {
+  font-size: 1.8em;
+  color: #fff;
+  line-height: 1.6em;
+  font-family: "Catamaran", sans-serif; }
+#madetomeasure h2 {
+  margin-left: 2em;
+  font-family: "Catamaran", sans-serif; }
+#madetomeasure h3 {
+  margin: 0 15%;
+  font-family: "Catamaran", sans-serif;
+  font-size: 2em; }
+#madetomeasure p {
+  font-size: 1.2em;
+  margin: 4em;
+  line-height: 1.8em;
+  font-family: "Roboto", sans-serif;
+  text-align: justify; }
+#madetomeasure .text {
+  padding-top: 3em; }
+#madetomeasure hr {
+  border-top: 2px solid #444;
+  width: 60px;
+  clear: both;
+  border-width: 1px 0 0;
+  margin: 20px 4em;
+  height: 0; }
+@media (min-width: 768px) {
+  #madetomeasure .columns-container .container {
+    max-width: 100%; } }
+
+/*# sourceMappingURL=made-to-measure.css.map */

@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:800");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'Great-Day-Personal-Use';
+  src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
 /* ************************************************************************************************
 								Categories Page Styles
 ************************************************************************************************ */
@@ -14,7 +24,7 @@
       .content_scene_cat .content_scene_cat_bg {
         padding: 10px 10px 10px 15px; } }
   .content_scene_cat span.category-name {
-    font: 600 42px/51px "Raleway", sans-serif;
+    font: 600 42px/51px "Lato", sans-serif;
     color: #fff;
     margin-bottom: 12px; }
     @media (max-width: 1199px) {
@@ -64,7 +74,7 @@
             max-width: 100%;
             vertical-align: top; }
       #subcategories ul li .subcategory-name {
-        font: 600 18px/22px "Raleway", sans-serif;
+        font: 600 18px/22px "Lato", sans-serif;
         color: #555454;
         text-transform: uppercase; }
         #subcategories ul li .subcategory-name:hover {

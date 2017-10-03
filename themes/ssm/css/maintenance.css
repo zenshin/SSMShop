@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:800");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'Great-Day-Personal-Use';
+  src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
 /*********************************************************************
 					Maintenance Page Styles
 **********************************************************************/
@@ -19,12 +29,12 @@
     margin: 0 0 31px 0;
     text-align: center; }
   #maintenance h1 {
-    font: 24px "Raleway", sans-serif;
+    font: 24px "Lato", sans-serif;
     color: #000000;
     padding: 0 0 14px 0;
     margin: 0 0 19px 0; }
   #maintenance #message {
-    font: 14px "Raleway", sans-serif;
+    font: 14px "Lato", sans-serif;
     padding: 0 0 0 18px;
     color: #555454;
     text-align: center; }

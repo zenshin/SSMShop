@@ -1,0 +1,68 @@
+@import "compass";
+@import "theme_variables";
+#artofmaking {
+    #columns {
+        // margin: 0;
+    }
+    #center_column {
+        padding: 0;
+    }
+    .jumbotron {
+        background: url("../img/cutting-cloth.jpg") center no-repeat;
+        height: 60vh;
+    }
+    .row {
+        margin: 0;
+    }
+    h1 {
+        text-align: center;
+        font-family: $font-cata;
+        font-size: 2.5em;
+        padding: 5em 0;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    h4 {
+        font-size: 1.8em;
+        color: $light-text-color;
+        line-height: 1.6em;
+        font-family: $font-cata;
+    }
+    h2 {
+        margin-left: 2em;
+        font-family: $font-cata;
+    }
+    h3 {
+        margin: 0 15%;
+        font-family: $font-cata;
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.2em;
+        margin: 4em;
+        line-height: 1.8em;
+        font-family: $font-robo;
+        text-align: justify;
+    }
+    .text {
+        padding-top: 3em;
+    }
+    hr {
+        border-top: 2px solid #444;
+        width: 60px;
+        clear: both;
+        border-width: 1px 0 0;
+        margin: 20px 4em;
+        height: 0;
+    }
+    ul li {
+        margin: 1em 5em 0 5em;
+    }
+    @media (min-width: 768px) {
+        .columns-container {
+            .container {
+                max-width: 100%;
+            }
+        }
+    }
+}

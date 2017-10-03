@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:800");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'Great-Day-Personal-Use';
+  src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
 /*** ESSENTIAL STYLES ***/
 .sf-contener {
   clear: both;
@@ -58,7 +68,7 @@
         .sf-menu > li span.active:after {
           content: "\f068"; } }
   .sf-menu > li > a {
-    font: 300 15px "Raleway", sans-serif;
+    font: 300 15px "Lato", sans-serif;
     text-transform: uppercase;
     color: #ffffff;
     display: block;
@@ -138,7 +148,7 @@ ul.sf-menu li li li.sfHover ul {
   width: 100%; }
   .sf-menu > li > ul > li > a {
     text-transform: uppercase;
-    font: 600 16px/20px "Raleway", sans-serif;
+    font: 600 16px/20px "Lato", sans-serif;
     color: #fff; }
     .sf-menu > li > ul > li > a:hover {
       color: #515151; }
@@ -188,7 +198,7 @@ ul.sf-menu li li li.sfHover ul {
   @media (max-width: 767px) {
     .cat-title {
       display: block;
-      font: 600 18px/22px "Raleway", sans-serif;
+      font: 600 18px/22px "Lato", sans-serif;
       text-transform: uppercase;
       color: #ffffff;
       display: block;

@@ -1,18 +1,73 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:800");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'Great-Day-Personal-Use';
+  src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
 /**************************************************************
 					CMS Pages Styles
 ***************************************************************/
 #cms #center_column .block-cms {
   padding-bottom: 20px; }
 #cms #center_column h1 {
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  text-align: center; }
 #cms #center_column h3 {
-  font-size: 16px;
+  font-size: 22px;
   border-bottom: none;
   margin: 0;
   padding: 0 0 17px 0; }
 #cms #center_column p {
   line-height: 18px; }
+#cms #center_column .about h1 {
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
+  font-size: 2.5em;
+  padding: 12px 0; }
+#cms #center_column .about .text {
+  margin-top: 2%;
+  padding: 2em; }
+#cms #center_column .about h4 {
+  font-size: 1.8em;
+  line-height: 1.6em;
+  font-family: "Catamaran", sans-serif; }
+#cms #center_column .about h3 {
+  margin: 0 15%;
+  font-family: "Catamaran", sans-serif;
+  font-size: 2em; }
+#cms #center_column .about p {
+  font-size: 1.2em;
+  line-height: 1.8em;
+  font-family: "Roboto", sans-serif;
+  text-align: justify; }
+#cms #center_column .about img {
+  margin: 2em; }
+#cms #center_column .about .dike {
+  font-family: "Great-Day-Personal-Use", sans-serif;
+  font-size: 1.2em; }
+  #cms #center_column .about .dike img {
+    margin: 0 .5em; }
+#cms #center_column .about .center-pic {
+  text-align: center; }
+#cms #center_column .about #quote {
+  text-align: center;
+  font-family: "Great-Day-Personal-Use", sans-serif;
+  font-size: 3em;
+  color: #000000;
+  font-weight: 600;
+  margin-top: 1em; }
+#cms #center_column .about hr {
+  border-top: 2px solid #fff;
+  width: 60px;
+  clear: both;
+  border-width: 1px 0 0;
+  margin: 20px 0;
+  height: 0; }
 #cms #center_column .list-1 li {
   padding: 4px 0 6px 0;
   font-weight: bold;
@@ -83,7 +138,7 @@
       font-weight: bold;
       color: #000000; }
     #cms #center_column #admin-action-cms p .button {
-      font: 700 17px/21px Arial, Helvetica, sans-serif;
+      font: 700 17px/21px "Open+Sans", Helvetica, sans-serif;
       padding: 0;
       border: 1px solid;
       padding: 10px 14px;
@@ -99,7 +154,7 @@
         background: -o-linear-gradient(top, #009ad0 0%, #007ab7 100%);
         background: -ms-linear-gradient(top, #009ad0 0%, #007ab7 100%);
         background: linear-gradient(to bottom, #009ad0 0%, #007ab7 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ad0', endColorstr='#007ab7',GradientType=0); }
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ad0', endColorstr='#007ab7', GradientType=0); }
         #cms #center_column #admin-action-cms p .button.publish_button:hover {
           border-color: #01314e #004b74 #0079b6 #004b74;
           filter: none;
@@ -115,7 +170,7 @@
         background: -o-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
         background: -ms-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
         background: linear-gradient(to bottom, #f7f7f7 0%, #ededed 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ededed',GradientType=0); }
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ededed', GradientType=0); }
         #cms #center_column #admin-action-cms p .button.lnk_view:hover {
           border-color: #9e9e9e #9e9e9e #c8c8c8 #9e9e9e;
           filter: none;

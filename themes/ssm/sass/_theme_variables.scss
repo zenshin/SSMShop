@@ -1,13 +1,33 @@
 @import 'bootstrap_lib/_variables';
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:800');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: 'Great-Day-Personal-Use';
+    src:url('../fonts/Great-Day-Personal-Use.ttf.woff') format('woff'),
+        url('../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use') format('svg'),
+        url('../fonts/Great-Day-Personal-Use.ttf.eot'),
+        url('../fonts/Great-Day-Personal-Use.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
 
 //------- FONTS
-$font-family:				  		Arial, Helvetica, sans-serif;
+$font-family:				  		'Open+Sans', Helvetica, sans-serif;
 $font:						  		normal 13px/18px $font-family;
-$font-custom:                 		'Raleway', sans-serif;
+$font-cursive:						'Calligraffitti', cursive;
+$font-custom:                 		'Lato', sans-serif;
 $font-icon:                   		"FontAwesome";
 $fa-css-prefix:       				icon !default;
+$font-family-sans-serif: 			'Open+Sans', Helvetica, sans-serif !default;
+$font-cata:							'Catamaran', sans-serif;
+$font-robo:							'Roboto', sans-serif;
+$font-sign:							'Great-Day-Personal-Use',sans-serif;
+
+
 
 
 //-------- BORDERS

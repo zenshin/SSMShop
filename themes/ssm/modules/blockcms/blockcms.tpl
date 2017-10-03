@@ -69,10 +69,17 @@
 	<!-- Block CMS module footer -->
 		<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 	<h4>
-			<a href="{$link->getPageLink($contact_url, true)|escape:'html':'UTF-8'}" title="{l s='Contact us' mod='blockcms'}">
+			<a href="{$link->getPageLink('artofmaking')|escape:'html':'UTF-8'}" title="{l s='Contact us' mod='blockcms'}">
 				Art of making
 			</a>
 		</h4>
+		<ul class="toggle-footer">
+			<li class="item">
+					<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
+						Half and full canvas
+					</a>
+			</li>
+			</ul>
 		</section>
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 	<h4>
@@ -80,6 +87,28 @@
 				Media
 			</a>
 		</h4>
+		<ul class="toggle-footer">
+			<li class="item">
+					<a href="{$link->getPageLink('newsletter')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
+						Newsletter 
+					</a>
+			</li>
+			<li class="item">
+				<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
+						Global Events
+				</a>
+			</li>
+			<li class="item">
+				<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
+						Blog
+				</a>
+			</li>
+			<li class="item">
+				<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
+						Itinerary
+				</a>
+			</li>
+		</ul>
 		</section>
 		<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 	<h4>
@@ -87,10 +116,32 @@
 				Testimonials
 			</a>
 		</h4>
+		<ul class="toggle-footer">
+			<li class="item">
+					<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
+						Customer feedbacks
+					</a>
+			</li>
+			</ul>
 		</section>
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 		<h4>{l s='Information' mod='blockcms'}</h4>
 		<ul class="toggle-footer">
+		<li class="item">
+					<a href="{$link->getPageLink('madetomeasure')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
+						Private Tailoring 
+					</a>
+				</li>
+				<li class="item">
+					<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
+						Location
+					</a>
+				</li>
+				<li class="item">
+					<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
+						Profile Account 
+					</a>
+				</li>
 			{if isset($show_price_drop) && $show_price_drop && !$PS_CATALOG_MODE}
 				<li class="item">
 					<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
@@ -152,7 +203,7 @@
 	<section class="bottom-footer col-xs-12">
 		<div>
 		<img class="logo-bot" src="/img/mrdike.png" alt="inspired by Mr. Dike">
-			{l s='[1] %3$s %2$s - Ecommerce software by %1$s [/1]' mod='blockcms' sprintf=['Suitsurmesur™', 'Y'|date, '©'] tags=['<a class="_blank" href="http://www.suitsurmesur.com">'] nocache}
+			{l s='[1] %3$s %2$s  %1$s [/1]' mod='blockcms' sprintf=['SUITSURMESUR. All Rights Reserved', 'Y'|date, 'Copyright © '] tags=['<a class="_blank" href="http://www.suitsurmesur.com">'] nocache}
 		</div>
 	</section>
 	{/if}
