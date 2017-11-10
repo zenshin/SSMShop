@@ -9,6 +9,11 @@
   src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
 /*******************************************************
 Product list Styles
 ********************************************************/
@@ -43,7 +48,9 @@ ul.product_list .product-image-container {
   ul.product_list .product-image-container img {
     margin: 0 auto;
     object-fit: cover;
-    height: 40vh; }
+    height: 50vmin;
+    width: 100vmin;
+    width: -webkit-fill-available; }
   ul.product_list .product-image-container .quick-view-wrapper-mobile {
     display: none; }
     ul.product_list .product-image-container .quick-view-wrapper-mobile .quick-view-mobile {
@@ -91,7 +98,7 @@ ul.product_list .product-image-container {
         bottom: 0px;
         right: 0px; } }
   ul.product_list .product-image-container .quick-view {
-    font: 700 13px/16px "Open+Sans", Helvetica, sans-serif;
+    font: 700 13px/16px "Proxima", "Open+Sans", Helvetica, sans-serif;
     color: #777676;
     position: absolute;
     left: 50%;

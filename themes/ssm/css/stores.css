@@ -9,6 +9,11 @@
   src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
 /***********************************************************
 					Stores Page Styles
 ************************************************************/

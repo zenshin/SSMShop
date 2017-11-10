@@ -26,6 +26,10 @@
 var responsiveflag = false;
 
 $(document).ready(function () {
+	if ($('body').not('#category')) {
+		$('#search_block_top').addClass('hidden');
+	};
+
 	highdpiInit();
 	responsiveResize();
 	$(window).resize(responsiveResize);

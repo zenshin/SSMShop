@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-09-14 20:49:56
+<?php /* Smarty version Smarty-3.1.19, created on 2017-10-10 20:57:06
          compiled from "/Applications/MAMP/htdocs/SSMShop/themes/ssm/prices-drop.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:23176614259badd64ce2829-80980554%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:203747249759dd2612c7f766-26755630%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '23176614259badd64ce2829-80980554',
+  'nocache_hash' => '203747249759dd2612c7f766-26755630',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59badd64d089f5_13913004',
+  'unifunc' => 'content_59dd2612cb99f9_97551562',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59badd64d089f5_13913004')) {function content_59badd64d089f5_13913004($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59dd2612cb99f9_97551562')) {function content_59dd2612cb99f9_97551562($_smarty_tpl) {?>
 
 <?php $_smarty_tpl->_capture_stack[0][] = array('path', null, null); ob_start(); ?><?php echo smartyTranslate(array('s'=>'Price drop'),$_smarty_tpl);?>
 <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);

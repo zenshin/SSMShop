@@ -54,7 +54,7 @@
 		<fieldset>
 			<h3 class="page-subheading">{l s='send a message'}</h3>
 			<div class="clearfix">
-				<div class="col-xs-12 col-md-3">
+				<div class="col-xs-12 col-md-8 col-md-offset-2">
 					<div class="form-group selector1">
 						<label for="id_contact">{l s='Subject Heading'}</label>
 					{if isset($customerThread.id_contact) && $customerThread.id_contact && $contacts|count}
@@ -138,7 +138,7 @@
 						</p>
 					{/if}
 				</div>
-				<div class="col-xs-12 col-md-9">
+				<div class="col-xs-12 col-md-8 col-md-offset-2>
 					<div class="form-group">
 						<label for="message">{l s='Message'}</label>
 						<textarea class="form-control" id="message" name="message">{if isset($message)}{$message|escape:'html':'UTF-8'|stripslashes}{/if}</textarea>

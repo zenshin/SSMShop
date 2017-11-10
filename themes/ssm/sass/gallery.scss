@@ -1,0 +1,58 @@
+@import "compass";
+@import "theme_variables";
+#gallery {
+    #center_column {
+        padding: 0;
+        h2 {
+            margin: 2em auto;
+            text-align: center;
+            font-family: $font-family;
+        }
+        .main-carousel {
+            .flickity-viewport {
+                max-height: 100vh !important;
+                .flickity-slider {
+                    .is-selected {
+                        display: table;
+                    }
+                }
+            }
+        }
+        .carousel-nav {
+            .carousel-cell {
+                width: 200px;
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        .columns-container {
+            .container {
+                max-width: 100%;
+                .row {
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img.custom-logo {
+        left: 68vw;
+    }
+    .seriousslider {
+        height: 65vh;
+    }
+    .seriousslider-inner>.item,
+    .seriousslider-inner>.item {
+        height: 75vh;
+    }
+    .cryout-serious-slider .seriousslider-indicators,
+    .seriousslider-light .seriousslider-control {
+        display: none;
+    }
+    .main h2 {
+        font-size: 1em;
+    }
+}

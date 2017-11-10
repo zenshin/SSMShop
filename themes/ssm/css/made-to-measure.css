@@ -9,49 +9,103 @@
   src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
 #madetomeasure #center_column {
   padding: 0; }
-#madetomeasure .jumbotron {
-  background: url("../img/tailoring.jpg") center bottom no-repeat;
-  height: 60vh; }
-#madetomeasure .row {
-  margin: 0; }
-#madetomeasure h1 {
-  text-align: center;
-  font-family: "Catamaran", sans-serif;
-  font-size: 2.5em;
-  padding: 5em 0;
-  text-transform: uppercase;
-  color: #fff; }
-#madetomeasure h4 {
-  font-size: 1.8em;
-  color: #fff;
-  line-height: 1.6em;
-  font-family: "Catamaran", sans-serif; }
-#madetomeasure h2 {
-  margin-left: 2em;
-  font-family: "Catamaran", sans-serif; }
-#madetomeasure h3 {
-  margin: 0 15%;
-  font-family: "Catamaran", sans-serif;
-  font-size: 2em; }
-#madetomeasure p {
-  font-size: 1.2em;
-  margin: 4em;
-  line-height: 1.8em;
-  font-family: "Roboto", sans-serif;
-  text-align: justify; }
-#madetomeasure .text {
-  padding-top: 3em; }
-#madetomeasure hr {
-  border-top: 2px solid #444;
-  width: 60px;
-  clear: both;
-  border-width: 1px 0 0;
-  margin: 20px 4em;
-  height: 0; }
+  #madetomeasure #center_column .jumbotron {
+    background: url("../img/tailoring.jpg") center bottom no-repeat;
+    height: 60vh;
+    margin-bottom: 4em; }
+    #madetomeasure #center_column .jumbotron .container {
+      background: rgba(0, 0, 0, 0.3);
+      height: 60vh; }
+      #madetomeasure #center_column .jumbotron .container h2 {
+        text-align: center;
+        color: #fff; }
+      #madetomeasure #center_column .jumbotron .container .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important; }
+  #madetomeasure #center_column .center {
+    text-align: center; }
+    #madetomeasure #center_column .center hr {
+      margin: auto; }
+  #madetomeasure #center_column h1 {
+    text-align: center;
+    font-family: "Proxima", "Catamaran", sans-serif;
+    font-size: 2.5em;
+    padding: 5em 0;
+    text-transform: uppercase;
+    color: #fff; }
+  #madetomeasure #center_column h2 {
+    margin-left: 2em;
+    font-family: "Proxima", "Catamaran", sans-serif; }
+  #madetomeasure #center_column h3 {
+    color: #a98f5c;
+    margin: 0 15%;
+    font-family: "Proxima", "Catamaran", sans-serif;
+    font-size: 2em;
+    text-align: center; }
+  #madetomeasure #center_column h4 {
+    color: #a98f5c;
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 1.6em;
+    font-family: "Proxima", "Catamaran", sans-serif;
+    margin-top: 2em; }
+  #madetomeasure #center_column p {
+    font-size: 1.2em;
+    margin: 1em;
+    line-height: 1.8em;
+    font-family: "Proxima", "Roboto", sans-serif;
+    text-align: justify; }
+  #madetomeasure #center_column figure {
+    padding: 0; }
+  #madetomeasure #center_column .text {
+    padding-top: 3em; }
+  #madetomeasure #center_column hr {
+    border-top: 2px solid #444;
+    width: 60px;
+    clear: both;
+    border-width: 1px 0 0;
+    margin: 20px 4em;
+    height: 0; }
+  #madetomeasure #center_column .last-mtm {
+    margin-top: 0; }
+  #madetomeasure #center_column .logos {
+    padding: 0 20vw;
+    margin: 0 0 5em 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around; }
+    #madetomeasure #center_column .logos figure {
+      margin: 0 20px; }
+      #madetomeasure #center_column .logos figure img {
+        max-width: 135px; }
+  #madetomeasure #center_column button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color: #a98f5c;
+    border: 4px solid #a98f5c;
+    background: #ffffff;
+    padding: 1em 2em;
+    font-size: 1.2em; }
+  #madetomeasure #center_column button:hover {
+    opacity: 0.6; }
 @media (min-width: 768px) {
   #madetomeasure .columns-container .container {
-    max-width: 100%; } }
+    max-width: 100%; }
+    #madetomeasure .columns-container .container .row {
+      margin-left: 0 !important;
+      margin-right: 0 !important; } }
 
 /*# sourceMappingURL=made-to-measure.css.map */

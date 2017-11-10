@@ -1,0 +1,35 @@
+@import "compass";
+@import "theme_variables";
+#terms {
+    font-family: $font-family;
+    #columns {
+        h1 {
+            text-align: center;
+            margin: 2em auto;
+            font-family: $font-family;
+            text-transform: uppercase;
+        }
+        div {
+            text-align: justify;
+            @media screen and (max-width: $break-mobile) {
+                text-align: left;
+            }
+            h2 {
+                font-family: $font-family;
+                font-size: 1.8em;
+            }
+            p {
+                font-size: 1.2em;
+            }
+            ul {
+                list-style: outside;
+                padding-left: 25px;
+                li {
+                    font-size: 1.2em;
+                    margin: 1em auto;
+                }
+            }
+        }
+        max-width: 1000px;
+    }
+}

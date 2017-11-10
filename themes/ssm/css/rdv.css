@@ -1,7 +1,81 @@
-h1, h2 {
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:800");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'Great-Day-Personal-Use';
+  src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+#rdv h1 {
+  text-align: center;
+  font-family: "Proxima", "Catamaran", sans-serif;
+  font-size: 2.5em;
+  padding: 5em 0;
+  text-transform: uppercase; }
+#rdv h2 {
+  margin-left: 2em;
+  font-family: "Proxima", "Catamaran", sans-serif; }
+#rdv h3 {
+  color: #a98f5c;
+  margin: 0 15%;
+  font-family: "Proxima", "Catamaran", sans-serif;
+  font-size: 2em;
   text-align: center; }
-
-.map p {
+#rdv p {
+  font-size: 1.2em;
+  margin: 1em;
+  line-height: 1.8em;
+  font-family: "Proxima", "Roboto", sans-serif;
+  text-align: justify; }
+#rdv .pcenter {
+  text-align: center;
+  margin: 5em auto; }
+#rdv .center p {
+  text-align: center; }
+#rdv .center .dike {
+  font-family: "Great-Day-Personal-Use", sans-serif;
+  font-size: 1.2em; }
+  #rdv .center .dike img {
+    margin: 0 .5em; }
+#rdv figure {
+  padding: 0; }
+#rdv hr {
+  border-top: 2px solid #444;
+  width: 60px;
+  clear: both;
+  border-width: 1px 0 0;
+  margin: 20px 4em;
+  height: 0; }
+#rdv #map {
+  height: 50vh; }
+#rdv .map p {
   font-size: 1.4em; }
+#rdv .button {
+  margin-bottom: 2em; }
+#rdv .contact-form-box .submit {
+  text-align: center; }
+#rdv .contact-form-box input.form-control {
+  display: inline-block;
+  float: right; }
+#rdv .line {
+  padding: 15px 0 0 0;
+  border-top: 1px solid #515151;
+  width: 30%;
+  margin: 25px auto;
+  position: relative; }
+  #rdv .line span.dike {
+    position: absolute;
+    top: -88%;
+    width: 35%;
+    margin: 0 -17%;
+    background: white; }
 
 /*# sourceMappingURL=rdv.css.map */

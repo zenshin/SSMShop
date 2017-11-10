@@ -1,0 +1,108 @@
+@import "compass";
+@import "theme_variables";
+#about {
+    .row {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    #center_column {
+        padding: 0;
+        h1 {
+            text-align: center;
+            font-family: $font-cata;
+            font-size: 2.5em;
+            padding: 1em 0;
+            text-transform: uppercase;
+            color: #000;
+        }
+        hr {
+            border-top: 2px solid #444;
+            width: 60px;
+            clear: both;
+            border-width: 1px 0 0;
+            margin: 20px 4em;
+            height: 0;
+        }
+        h2 {
+            margin-left: 2em;
+            font-family: $font-cata;
+        }
+        h4 {
+            color: #a98f5c;
+            font-size: 1.8em;
+            text-align: center;
+            line-height: 1.6em;
+            font-family: $font-cata;
+            margin-top: 2em;
+        }
+        h3 {
+            color: #a98f5c;
+            margin-left: 2em;
+            font-family: $font-cata;
+            font-size: 2em;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 4em;
+            line-height: 1.8em;
+            font-family: $font-robo;
+            text-align: justify;
+        }
+        figure {
+            padding: 0;
+        }
+        .center {
+            text-align: center;
+            margin: 2em 0;
+            h2,
+            h4 {
+                margin: 3em 0;
+            }
+            hr {
+                margin: 20px auto;
+            }
+        }
+        .text {
+            padding-top: 3em;
+        }
+        .center {
+            text-align: center;
+            margin: 4em 0;
+            h2,
+            h4 {
+                margin: 3em 0;
+            }
+        }
+        .dike {
+            img {
+                margin: 0 .5em;
+            }
+            font-family: $font-sign;
+            font-size: 1.2em;
+        }
+        .center-pic {
+            text-align: center;
+            img {
+                width: 40%;
+                margin: 0 auto;
+                object-fit: cover;
+                object-position: top;
+            }
+        }
+        #quote {
+            text-align: center;
+            font-family: $font-sign;
+            font-size: 2.5em;
+            color: $base-text-color;
+            font-weight: 600;
+            margin-top: 1em;
+        }
+    }
+    @media (min-width: 768px) {
+        .columns-container {
+            .container {
+                max-width: 100%;
+            }
+        }
+    }
+}

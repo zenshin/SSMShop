@@ -9,6 +9,11 @@
   src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
 #my-account .addresses-lists {
   margin-bottom: 30px; }
 #my-account ul.myaccount-link-list li {
@@ -17,7 +22,7 @@
   #my-account ul.myaccount-link-list li a {
     display: block;
     overflow: hidden;
-    font: 600 16px/20px "Lato", sans-serif;
+    font: 600 16px/20px "Proxima", "Lato", sans-serif;
     color: #555454;
     text-shadow: 0px 1px white;
     text-transform: uppercase;

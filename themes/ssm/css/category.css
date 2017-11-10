@@ -9,6 +9,11 @@
   src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
 /* ************************************************************************************************
 								Categories Page Styles
 ************************************************************************************************ */
@@ -24,7 +29,7 @@
       .content_scene_cat .content_scene_cat_bg {
         padding: 10px 10px 10px 15px; } }
   .content_scene_cat span.category-name {
-    font: 600 42px/51px "Lato", sans-serif;
+    font: 600 42px/51px "Proxima", "Lato", sans-serif;
     color: #fff;
     margin-bottom: 12px; }
     @media (max-width: 1199px) {
@@ -74,7 +79,7 @@
             max-width: 100%;
             vertical-align: top; }
       #subcategories ul li .subcategory-name {
-        font: 600 18px/22px "Lato", sans-serif;
+        font: 600 18px/22px "Proxima", "Lato", sans-serif;
         color: #555454;
         text-transform: uppercase; }
         #subcategories ul li .subcategory-name:hover {

@@ -9,6 +9,11 @@
   src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
 /**************************************************************************
 					Contact Page Styles
 **************************************************************************/
@@ -23,7 +28,6 @@
 .contact-form-box {
   padding: 23px 0 0 0;
   margin: 0 0 30px 0;
-  background: url(../img/contact-form.png) repeat-x #fff;
   -moz-box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 13px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 13px;
   box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 13px; }

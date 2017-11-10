@@ -1,64 +1,122 @@
 @import "compass";
 @import "theme_variables";
 #madetomeasure {
-    #columns {
-        // margin: 0;
-    }
     #center_column {
         padding: 0;
-    }
-    .jumbotron {
-        background: url("../img/tailoring.jpg") center bottom no-repeat;
-        height: 60vh;
-    }
-    .row {
-        margin: 0;
-    }
-    h1 {
-        text-align: center;
-        font-family: $font-cata;
-        font-size: 2.5em;
-        padding: 5em 0;
-        text-transform: uppercase;
-        color: #fff;
-    }
-    h4 {
-        font-size: 1.8em;
-        color: $light-text-color;
-        line-height: 1.6em;
-        font-family: $font-cata;
-    }
-    h2 {
-        margin-left: 2em;
-        font-family: $font-cata;
-    }
-    h3 {
-        margin: 0 15%;
-        font-family: $font-cata;
-        font-size: 2em;
-    }
-    p {
-        font-size: 1.2em;
-        margin: 4em;
-        line-height: 1.8em;
-        font-family: $font-robo;
-        text-align: justify;
-    }
-    .text {
-        padding-top: 3em;
-    }
-    hr {
-        border-top: 2px solid #444;
-        width: 60px;
-        clear: both;
-        border-width: 1px 0 0;
-        margin: 20px 4em;
-        height: 0;
+        .jumbotron {
+            background: url("../img/tailoring.jpg") center bottom no-repeat;
+            height: 60vh;
+            margin-bottom: 4em;
+            .container {
+                background: rgba(0, 0, 0, .3);
+                height: 60vh;
+                h2 {
+                    text-align: center;
+                    color: #fff;
+                }
+                .row {
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                }
+            }
+        }
+        .center {
+            text-align: center;
+            hr {
+                margin: auto;
+            }
+        }
+        h1 {
+            text-align: center;
+            font-family: $font-cata;
+            font-size: 2.5em;
+            padding: 5em 0;
+            text-transform: uppercase;
+            color: #fff;
+        }
+        h2 {
+            margin-left: 2em;
+            font-family: $font-cata;
+        }
+        h3 {
+            color: #a98f5c;
+            margin: 0 15%;
+            font-family: $font-cata;
+            font-size: 2em;
+            text-align: center;
+        }
+        h4 {
+            color: #a98f5c;
+            font-size: 1.8em;
+            text-align: center;
+            line-height: 1.6em;
+            font-family: $font-cata;
+            margin-top: 2em;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 1em;
+            line-height: 1.8em;
+            font-family: $font-robo;
+            text-align: justify;
+        }
+        figure {
+            padding: 0;
+        }
+        .text {
+            padding-top: 3em;
+        }
+        hr {
+            border-top: 2px solid #444;
+            width: 60px;
+            clear: both;
+            border-width: 1px 0 0;
+            margin: 20px 4em;
+            height: 0;
+        }
+        .last-mtm {
+            margin-top: 0;
+        }
+        .logos {
+            padding: 0 20vw;
+            margin: 0 0 5em 0;
+            list-style: none;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            justify-content: space-around;
+            figure {
+                margin: 0 20px;
+                img {
+                    max-width: 135px;
+                }
+            }
+        }
+        button {
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            color: #a98f5c;
+            border: 4px solid #a98f5c;
+            background: #ffffff;
+            padding: 1em 2em;
+            font-size: 1.2em;
+        }
+        button:hover {
+            opacity: 0.6;
+        }
     }
     @media (min-width: 768px) {
         .columns-container {
             .container {
                 max-width: 100%;
+                .row {
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                }
             }
         }
     }

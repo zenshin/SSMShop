@@ -1,4 +1,10 @@
 <?php return array (
+  'AboutController' => 
+  array (
+    'path' => 'override/controllers/front/AboutController.php',
+    'type' => 'class',
+    'override' => false,
+  ),
   'AbstractLogger' => 
   array (
     'path' => '',
@@ -1307,6 +1313,12 @@
     'type' => 'class',
     'override' => false,
   ),
+  'AppointmentGuideController' => 
+  array (
+    'path' => 'override/controllers/front/AppointmentGuideController.php',
+    'type' => 'class',
+    'override' => false,
+  ),
   'ArtOfMakingController' => 
   array (
     'path' => 'override/controllers/front/ArtOfMakingController.php',
@@ -1742,6 +1754,12 @@
   'ConnectionsSourceCore' => 
   array (
     'path' => 'classes/ConnectionsSource.php',
+    'type' => 'class',
+    'override' => false,
+  ),
+  'ConsultationController' => 
+  array (
+    'path' => 'override/controllers/front/ConsultationController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2623,7 +2641,7 @@
   ),
   'IndexControllerCore' => 
   array (
-    'path' => 'controllers/front/IndexController.php',
+    'path' => 'override/controllers/front/IndexController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3122,6 +3140,12 @@
   'OrderStateCore' => 
   array (
     'path' => 'classes/order/OrderState.php',
+    'type' => 'class',
+    'override' => false,
+  ),
+  'OverseasController' => 
+  array (
+    'path' => 'override/controllers/front/OverseasController.php',
     'type' => 'class',
     'override' => false,
   ),

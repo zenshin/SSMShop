@@ -69,15 +69,13 @@
 	<!-- Block CMS module footer -->
 		<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 	<h4>
-			<a href="{$link->getPageLink('artofmaking')|escape:'html':'UTF-8'}" title="{l s='Contact us' mod='blockcms'}">
+			<a href="{$link->getPageLink('artofmaking')|escape:'html':'UTF-8'}" title="{l s='Art of making' mod='art-of-making'}">
 				Art of making
 			</a>
 		</h4>
 		<ul class="toggle-footer">
 			<li class="item">
-					<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
-						Half and full canvas
-					</a>
+					
 			</li>
 			</ul>
 		</section>
@@ -99,13 +97,8 @@
 				</a>
 			</li>
 			<li class="item">
-				<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
+				<a href="www.ucandoitfashion.com/" target="_blank">
 						Blog
-				</a>
-			</li>
-			<li class="item">
-				<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
-						Itinerary
 				</a>
 			</li>
 		</ul>
@@ -119,7 +112,7 @@
 		<ul class="toggle-footer">
 			<li class="item">
 					<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
-						Customer feedbacks
+						Customer Reviews
 					</a>
 			</li>
 			</ul>
@@ -128,8 +121,13 @@
 		<h4>{l s='Information' mod='blockcms'}</h4>
 		<ul class="toggle-footer">
 		<li class="item">
-					<a href="{$link->getPageLink('madetomeasure')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
-						Private Tailoring 
+					<a href="{$link->getPageLink('consultation')|escape:'html':'UTF-8'}" title="{l s='Private Tailoring Consultations' mod='consultation'}">
+						Private Tailoring Consultation
+					</a>
+				</li>
+					<li class="item">
+					<a href="{$link->getPageLink('overseas')|escape:'html':'UTF-8'}" title="{l s='Overseas visits' mod='overseas'}">
+						Overseas visits
 					</a>
 				</li>
 				<li class="item">
@@ -140,6 +138,11 @@
 				<li class="item">
 					<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
 						Profile Account 
+					</a>
+				</li>
+				<li class="item">
+					<a href="{$link->getPageLink('terms')|escape:'html':'UTF-8'}" title="{l s='Terms and conditions' mod=terms}">
+						Terms & Conditions
 					</a>
 				</li>
 			{if isset($show_price_drop) && $show_price_drop && !$PS_CATALOG_MODE}

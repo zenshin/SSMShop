@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-10-03 22:58:16
+<?php /* Smarty version Smarty-3.1.19, created on 2017-10-29 13:14:48
          compiled from "/Applications/MAMP/htdocs/SSMShop/themes/ssm/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:127284563559d407f8a0f561-80385999%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:26544262959f5d4483502a8-33426202%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '91b955c0c91bbf1e2fd2c773194b697176f95db0' => 
     array (
       0 => '/Applications/MAMP/htdocs/SSMShop/themes/ssm/header.tpl',
-      1 => 1503524413,
+      1 => 1508101545,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '127284563559d407f8a0f561-80385999',
+  'nocache_hash' => '26544262959f5d4483502a8-33426202',
   'function' => 
   array (
   ),
@@ -58,9 +58,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59d407f8d09c72_50465055',
+  'unifunc' => 'content_59f5d44891f009_82057586',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59d407f8d09c72_50465055')) {function content_59d407f8d09c72_50465055($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include '/Applications/MAMP/htdocs/SSMShop/tools/smarty/plugins/function.implode.php';
+<?php if ($_valid && !is_callable('content_59f5d44891f009_82057586')) {function content_59f5d44891f009_82057586($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include '/Applications/MAMP/htdocs/SSMShop/tools/smarty/plugins/function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>

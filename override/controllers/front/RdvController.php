@@ -193,6 +193,8 @@ class RdvController extends FrontController
     {
         parent::setMedia();
         $this->addCSS(_THEME_CSS_DIR_.'contact-form.css');
+        $this->addCSS(_THEME_CSS_DIR_.'rdv.css');
+         $this->addJS(_THEME_JS_DIR_.'rdv.js');
         $this->addJS(_THEME_JS_DIR_.'contact-form.js');
         $this->addJS(_PS_JS_DIR_.'validate.js');
     }

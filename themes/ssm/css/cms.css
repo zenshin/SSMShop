@@ -9,171 +9,235 @@
   src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
-/**************************************************************
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+		/**************************************************************
 					CMS Pages Styles
 ***************************************************************/
-#cms #center_column .block-cms {
-  padding-bottom: 20px; }
-#cms #center_column h1 {
-  margin-bottom: 25px;
-  text-align: center; }
-#cms #center_column h3 {
-  font-size: 22px;
-  border-bottom: none;
-  margin: 0;
-  padding: 0 0 17px 0; }
-#cms #center_column p {
-  line-height: 18px; }
-#cms #center_column .about h1 {
-  text-align: center;
-  font-family: "Catamaran", sans-serif;
-  font-size: 2.5em;
-  padding: 12px 0; }
-#cms #center_column .about .text {
-  margin-top: 2%;
-  padding: 2em; }
-#cms #center_column .about h4 {
-  font-size: 1.8em;
-  line-height: 1.6em;
-  font-family: "Catamaran", sans-serif; }
-#cms #center_column .about h3 {
-  margin: 0 15%;
-  font-family: "Catamaran", sans-serif;
-  font-size: 2em; }
-#cms #center_column .about p {
-  font-size: 1.2em;
-  line-height: 1.8em;
-  font-family: "Roboto", sans-serif;
-  text-align: justify; }
-#cms #center_column .about img {
-  margin: 2em; }
-#cms #center_column .about .dike {
-  font-family: "Great-Day-Personal-Use", sans-serif;
-  font-size: 1.2em; }
-  #cms #center_column .about .dike img {
-    margin: 0 .5em; }
-#cms #center_column .about .center-pic {
-  text-align: center; }
-#cms #center_column .about #quote {
-  text-align: center;
-  font-family: "Great-Day-Personal-Use", sans-serif;
-  font-size: 3em;
-  color: #000000;
-  font-weight: 600;
-  margin-top: 1em; }
-#cms #center_column .about hr {
-  border-top: 2px solid #fff;
-  width: 60px;
-  clear: both;
-  border-width: 1px 0 0;
-  margin: 20px 0;
-  height: 0; }
-#cms #center_column .list-1 li {
-  padding: 4px 0 6px 0;
-  font-weight: bold;
-  color: #46a74e;
-  border-top: 1px solid #d6d4d4; }
-  #cms #center_column .list-1 li:first-child {
-    border: none; }
-  #cms #center_column .list-1 li em {
-    font-size: 20px;
-    line-height: 20px;
-    padding-right: 15px;
-    vertical-align: -2px; }
-#cms #center_column img {
-  margin: 4px 0 17px;
-  max-width: 100%;
-  height: auto; }
-#cms #center_column .testimonials {
-  border: 1px solid;
-  border-color: #dfdede #d2d0d0 #b0afaf #d2d0d0;
-  margin: 4px 0 13px 0;
-  position: relative; }
-  #cms #center_column .testimonials .inner {
-    border: 1px solid #fff;
-    padding: 19px 18px 11px 18px;
-    background: #fbfbfb;
-    background: -moz-linear-gradient(top, #fbfbfb 0%, #fefefe 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbfbfb), color-stop(100%, #fefefe));
-    background: -webkit-linear-gradient(top, #fbfbfb 0%, #fefefe 100%);
-    background: -o-linear-gradient(top, #fbfbfb 0%, #fefefe 100%);
-    background: -ms-linear-gradient(top, #fbfbfb 0%, #fefefe 100%);
-    background: linear-gradient(to bottom, #fbfbfb 0%, #fefefe 100%); }
-    #cms #center_column .testimonials .inner span {
-      text-indent: -5000px;
-      display: inline-block;
-      width: 20px;
-      height: 15px; }
-      #cms #center_column .testimonials .inner span.before {
-        background: url(../img/bl-before-bg.png) no-repeat;
-        margin-right: 8px; }
-      #cms #center_column .testimonials .inner span.after {
-        background: url(../img/bl-after-bg.png) no-repeat;
-        margin-left: 8px; }
-  #cms #center_column .testimonials:after {
-    content: ".";
-    display: block;
-    text-indent: -5000px;
-    position: absolute;
-    bottom: -16px;
-    left: 21px;
-    width: 15px;
-    height: 16px;
-    background: url(../img/testimon-after.gif) no-repeat; }
-  #cms #center_column .testimonials + p {
-    padding-left: 45px;
-    margin-bottom: 18px; }
-#cms #center_column p.bottom-indent {
-  margin-bottom: 18px; }
-#cms #center_column #admin-action-cms {
-  background: none repeat 0 0 #F6F6F6;
-  border: 1px solid #d2d0d0;
-  padding: 10px; }
-  #cms #center_column #admin-action-cms p {
-    margin: 0; }
-    #cms #center_column #admin-action-cms p span {
+#cms #center_column {
+  padding: 0;
+  /*//About us styles
+  .cms-about-us .container {
+  	max-width: 100vw;
+  }
+  .about {
+  	h1 {
+  		text-align: center;
+  		font-family: $font-cata;
+  		font-size: 2.5em;
+  		padding: 1em 0;
+  		text-transform: uppercase;
+  		color: #000;
+  	}
+  	.row {
+  		margin: 0;
+  		hr {
+  			border-top: 2px solid #444;
+  			width: 60px;
+  			clear: both;
+  			border-width: 1px 0 0;
+  			margin: 20px 4em;
+  			height: 0;
+  		}
+  		h2 {
+  			margin-left: 2em;
+  			font-family: $font-cata;
+  		}
+  		h4 {
+  			color: #a98f5c;
+  			font-size: 1.8em;
+  			text-align: center;
+  			line-height: 1.6em;
+  			font-family: $font-cata;
+  			margin-top: 2em;
+  		}
+  		h3 {
+  			color: #a98f5c;
+  			margin-left: 2em;
+  			font-family: $font-cata;
+  			font-size: 2em;
+  		}
+  		p {
+  			font-size: 1.2em;
+  			margin: 4em;
+  			line-height: 1.8em;
+  			font-family: $font-robo;
+  			text-align: justify;
+  		}
+  		img {
+  			margin: 2em;
+  		}
+  		figure {
+  			padding: 0;
+  		}
+  		.center {
+  			text-align: center;
+  			margin: 2em 0;
+  			h2,
+  			h4 {
+  				margin: 3em 0;
+  			}
+  			hr {
+  				margin: 20px auto;
+  			}
+  		}
+  	}
+  	.text {
+  		padding-top: 3em;
+  	}
+  	.center {
+  		text-align: center;
+  		margin: 4em 0;
+  		h2,
+  		h4 {
+  			margin: 3em 0;
+  		}
+  	}
+  	.dike {
+  		img {
+  			margin: 0 .5em;
+  		}
+  		font-family: $font-sign;
+  		font-size: 1.2em;
+  	}
+  	.center-pic {
+  		text-align: center;
+  	}
+  	#quote {
+  		text-align: center;
+  		font-family: $font-sign;
+  		font-size: 3em;
+  		color: $base-text-color;
+  		font-weight: 600;
+  		margin-top: 1em;
+  	}
+  	@media (min-width: 768px) {
+  		.container.about {
+  			max-width: 100vw;
+  		}
+  	}
+  }*/ }
+  #cms #center_column .block-cms {
+    padding-bottom: 20px; }
+  #cms #center_column h1 {
+    margin-bottom: 25px;
+    text-align: center; }
+  #cms #center_column h3 {
+    font-size: 22px;
+    border-bottom: none;
+    margin: 0;
+    padding: 0 0 17px 0; }
+  #cms #center_column p {
+    line-height: 18px; }
+  #cms #center_column .list-1 li {
+    padding: 4px 0 6px 0;
+    font-weight: bold;
+    color: #46a74e;
+    border-top: 1px solid #d6d4d4; }
+    #cms #center_column .list-1 li:first-child {
+      border: none; }
+    #cms #center_column .list-1 li em {
+      font-size: 20px;
+      line-height: 20px;
+      padding-right: 15px;
+      vertical-align: -2px; }
+  #cms #center_column img {
+    margin: 4px 0 17px;
+    max-width: 100%;
+    height: auto; }
+  #cms #center_column .testimonials {
+    border: 1px solid;
+    border-color: #dfdede #d2d0d0 #b0afaf #d2d0d0;
+    margin: 4px 0 13px 0;
+    position: relative; }
+    #cms #center_column .testimonials .inner {
+      border: 1px solid #fff;
+      padding: 19px 18px 11px 18px;
+      background: #fbfbfb;
+      background: -moz-linear-gradient(top, #fbfbfb 0%, #fefefe 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbfbfb), color-stop(100%, #fefefe));
+      background: -webkit-linear-gradient(top, #fbfbfb 0%, #fefefe 100%);
+      background: -o-linear-gradient(top, #fbfbfb 0%, #fefefe 100%);
+      background: -ms-linear-gradient(top, #fbfbfb 0%, #fefefe 100%);
+      background: linear-gradient(to bottom, #fbfbfb 0%, #fefefe 100%); }
+      #cms #center_column .testimonials .inner span {
+        text-indent: -5000px;
+        display: inline-block;
+        width: 20px;
+        height: 15px; }
+        #cms #center_column .testimonials .inner span.before {
+          background: url(../img/bl-before-bg.png) no-repeat;
+          margin-right: 8px; }
+        #cms #center_column .testimonials .inner span.after {
+          background: url(../img/bl-after-bg.png) no-repeat;
+          margin-left: 8px; }
+    #cms #center_column .testimonials:after {
+      content: ".";
       display: block;
-      padding-bottom: 10px;
-      font-size: 14px;
-      font-weight: bold;
-      color: #000000; }
-    #cms #center_column #admin-action-cms p .button {
-      font: 700 17px/21px "Open+Sans", Helvetica, sans-serif;
-      padding: 0;
-      border: 1px solid;
-      padding: 10px 14px;
-      display: inline-block; }
-      #cms #center_column #admin-action-cms p .button.publish_button {
-        color: #fff;
-        text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
-        border-color: #0079b6 #006fa8 #012740 #006fa8;
-        background: #009ad0;
-        background: -moz-linear-gradient(top, #009ad0 0%, #007ab7 100%);
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #009ad0), color-stop(100%, #007ab7));
-        background: -webkit-linear-gradient(top, #009ad0 0%, #007ab7 100%);
-        background: -o-linear-gradient(top, #009ad0 0%, #007ab7 100%);
-        background: -ms-linear-gradient(top, #009ad0 0%, #007ab7 100%);
-        background: linear-gradient(to bottom, #009ad0 0%, #007ab7 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ad0', endColorstr='#007ab7', GradientType=0); }
-        #cms #center_column #admin-action-cms p .button.publish_button:hover {
-          border-color: #01314e #004b74 #0079b6 #004b74;
-          filter: none;
-          background: #0084bf; }
-      #cms #center_column #admin-action-cms p .button.lnk_view {
-        color: #000000;
-        text-shadow: 1px 1px white;
-        border-color: #cacaca #b7b7b7 #9a9a9a #b7b7b7;
-        background: #f7f7f7;
-        background: -moz-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #ededed));
-        background: -webkit-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
-        background: -o-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
-        background: -ms-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
-        background: linear-gradient(to bottom, #f7f7f7 0%, #ededed 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ededed', GradientType=0); }
-        #cms #center_column #admin-action-cms p .button.lnk_view:hover {
-          border-color: #9e9e9e #9e9e9e #c8c8c8 #9e9e9e;
-          filter: none;
-          background: #e7e7e7; }
+      text-indent: -5000px;
+      position: absolute;
+      bottom: -16px;
+      left: 21px;
+      width: 15px;
+      height: 16px;
+      background: url(../img/testimon-after.gif) no-repeat; }
+    #cms #center_column .testimonials + p {
+      padding-left: 45px;
+      margin-bottom: 18px; }
+  #cms #center_column p.bottom-indent {
+    margin-bottom: 18px; }
+  #cms #center_column #admin-action-cms {
+    background: none repeat 0 0 #F6F6F6;
+    border: 1px solid #d2d0d0;
+    padding: 10px; }
+    #cms #center_column #admin-action-cms p {
+      margin: 0; }
+      #cms #center_column #admin-action-cms p span {
+        display: block;
+        padding-bottom: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000000; }
+      #cms #center_column #admin-action-cms p .button {
+        font: 700 17px/21px "Proxima", "Open+Sans", Helvetica, sans-serif;
+        padding: 0;
+        border: 1px solid;
+        padding: 10px 14px;
+        display: inline-block; }
+        #cms #center_column #admin-action-cms p .button.publish_button {
+          color: #fff;
+          text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+          border-color: #0079b6 #006fa8 #012740 #006fa8;
+          background: #009ad0;
+          background: -moz-linear-gradient(top, #009ad0 0%, #007ab7 100%);
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #009ad0), color-stop(100%, #007ab7));
+          background: -webkit-linear-gradient(top, #009ad0 0%, #007ab7 100%);
+          background: -o-linear-gradient(top, #009ad0 0%, #007ab7 100%);
+          background: -ms-linear-gradient(top, #009ad0 0%, #007ab7 100%);
+          background: linear-gradient(to bottom, #009ad0 0%, #007ab7 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ad0', endColorstr='#007ab7', GradientType=0); }
+          #cms #center_column #admin-action-cms p .button.publish_button:hover {
+            border-color: #01314e #004b74 #0079b6 #004b74;
+            filter: none;
+            background: #0084bf; }
+        #cms #center_column #admin-action-cms p .button.lnk_view {
+          color: #000000;
+          text-shadow: 1px 1px white;
+          border-color: #cacaca #b7b7b7 #9a9a9a #b7b7b7;
+          background: #f7f7f7;
+          background: -moz-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #ededed));
+          background: -webkit-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
+          background: -o-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
+          background: -ms-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
+          background: linear-gradient(to bottom, #f7f7f7 0%, #ededed 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ededed', GradientType=0); }
+          #cms #center_column #admin-action-cms p .button.lnk_view:hover {
+            border-color: #9e9e9e #9e9e9e #c8c8c8 #9e9e9e;
+            filter: none;
+            background: #e7e7e7; }
 
 /*# sourceMappingURL=cms.css.map */

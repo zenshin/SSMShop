@@ -110,7 +110,6 @@
 
 .sf-menu li ul {
 	display: none;
-	left: 0;
 	top: 45px;
 	/* match top ul list item height */
 	z-index: 99;
@@ -163,12 +162,12 @@ ul.sf-menu li li li.sfHover ul {
 }
 
 .sf-menu>li>ul {
-	padding: 26px 30px 31px;
-	width: 100%;
+	padding: 15px;
+	width: 20%;
 	>li {
 		>a {
-			text-transform: uppercase;
-			font: 600 16px/20px $font-custom;
+			font: 600 16px;
+			font-family: $font-family;
 			color: $light-text-color;
 			&:hover {
 				color: $link-hover-color;
@@ -178,8 +177,7 @@ ul.sf-menu li li li.sfHover ul {
 }
 
 .sf-menu>li>ul>li {
-	float: left;
-	width: 20%;
+	width: 100%;
 	padding-right: 15px;
 	@media (max-width: $screen-xs-max) {
 		// max 767px

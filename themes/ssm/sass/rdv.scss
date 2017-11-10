@@ -1,6 +1,88 @@
-h1, h2 {
-    text-align: center;
-}
-.map p {
-    font-size: 1.4em;
+@import "compass";
+@import "theme_variables";
+#rdv {
+    h1 {
+        text-align: center;
+        font-family: $font-cata;
+        font-size: 2.5em;
+        padding: 5em 0;
+        text-transform: uppercase;
+    }
+    h2 {
+        margin-left: 2em;
+        font-family: $font-cata;
+    }
+    h3 {
+        color: #a98f5c;
+        margin: 0 15%;
+        font-family: $font-cata;
+        font-size: 2em;
+        text-align: center;
+    }
+    p {
+        font-size: 1.2em;
+        margin: 1em;
+        line-height: 1.8em;
+        font-family: $font-robo;
+        text-align: justify;
+    }
+    .pcenter {
+        text-align: center;
+        margin: 5em auto;
+    }
+    .center {
+        p {
+            text-align: center;
+        }
+        .dike {
+            img {
+                margin: 0 .5em;
+            }
+            font-family: $font-sign;
+            font-size: 1.2em;
+        }
+    }
+    figure {
+        padding: 0;
+    }
+    hr {
+        border-top: 2px solid #444;
+        width: 60px;
+        clear: both;
+        border-width: 1px 0 0;
+        margin: 20px 4em;
+        height: 0;
+    }
+    #map {
+        height: 50vh;
+    }
+    .map {
+        p {
+            font-size: 1.4em;
+        }
+    }
+    .button {
+        margin-bottom: 2em;
+    }
+    .contact-form-box .submit {
+        text-align: center;
+    }
+    .contact-form-box input.form-control {
+        display: inline-block;
+        float: right;
+    }
+    .line {
+        padding: 15px 0 0 0;
+        border-top: 1px solid #515151;
+        width: 30%;
+        margin: 25px auto;
+        position: relative;
+        span.dike {
+            position: absolute;
+            top: -88%;
+            width: 35%;
+            margin: 0 -17%;
+            background: white;
+        }
+    }
 }

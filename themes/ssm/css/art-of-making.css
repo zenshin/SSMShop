@@ -9,6 +9,11 @@
   src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
 #artofmaking #center_column {
   padding: 0; }
 #artofmaking .jumbotron {
@@ -18,7 +23,7 @@
   margin: 0; }
 #artofmaking h1 {
   text-align: center;
-  font-family: "Catamaran", sans-serif;
+  font-family: "Proxima", "Catamaran", sans-serif;
   font-size: 2.5em;
   padding: 5em 0;
   text-transform: uppercase;
@@ -27,19 +32,19 @@
   font-size: 1.8em;
   color: #fff;
   line-height: 1.6em;
-  font-family: "Catamaran", sans-serif; }
+  font-family: "Proxima", "Catamaran", sans-serif; }
 #artofmaking h2 {
   margin-left: 2em;
-  font-family: "Catamaran", sans-serif; }
+  font-family: "Proxima", "Catamaran", sans-serif; }
 #artofmaking h3 {
   margin: 0 15%;
-  font-family: "Catamaran", sans-serif;
+  font-family: "Proxima", "Catamaran", sans-serif;
   font-size: 2em; }
 #artofmaking p {
   font-size: 1.2em;
   margin: 4em;
   line-height: 1.8em;
-  font-family: "Roboto", sans-serif;
+  font-family: "Proxima", "Roboto", sans-serif;
   text-align: justify; }
 #artofmaking .text {
   padding-top: 3em; }
@@ -50,7 +55,7 @@
   border-width: 1px 0 0;
   margin: 20px 4em;
   height: 0; }
-#artofmaking ul li {
+#artofmaking .aom-ul ul li {
   margin: 1em 5em 0 5em; }
 @media (min-width: 768px) {
   #artofmaking .columns-container .container {

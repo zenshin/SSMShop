@@ -13,11 +13,11 @@ class MadeToMeasureController extends FrontController
 
     public $ssl = true;
 
-   public function setMedia()
+    public function setMedia()
     {
         parent::setMedia();
         $this->addCSS(_THEME_CSS_DIR_.'made-to-measure.css');
-       /* $this->addJS(_THEME_JS_DIR_.'contact-form.js');
+        /* $this->addJS(_THEME_JS_DIR_.'contact-form.js');
         $this->addJS(_PS_JS_DIR_.'validate.js');*/
     }
 

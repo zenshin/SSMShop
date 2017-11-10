@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:800");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'Great-Day-Personal-Use';
+  src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+#consultation #center_column {
+  padding: 0; }
+  #consultation #center_column a {
+    opacity: 0.6; }
+  #consultation #center_column .jumbotron {
+    background: url("../img/elegant-garments.jpg") center bottom no-repeat;
+    height: 60vh;
+    margin-bottom: 4em; }
+    #consultation #center_column .jumbotron h2 {
+      text-align: center;
+      color: #fff; }
+  #consultation #center_column .row {
+    margin: 0; }
+  #consultation #center_column .center p {
+    text-align: center !important; }
+  #consultation #center_column .center hr {
+    margin: auto; }
+  #consultation #center_column h1 {
+    text-align: center;
+    font-family: "Proxima", "Catamaran", sans-serif;
+    font-size: 2.5em;
+    padding: 5em 0;
+    text-transform: uppercase;
+    color: #fff; }
+  #consultation #center_column h2 {
+    margin-left: 2em;
+    font-family: "Proxima", "Catamaran", sans-serif; }
+  #consultation #center_column h3 {
+    color: #a98f5c;
+    margin-left: 2em;
+    font-family: "Proxima", "Catamaran", sans-serif;
+    font-size: 2em; }
+  #consultation #center_column h4 {
+    color: #a98f5c;
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 1.6em;
+    font-family: "Proxima", "Catamaran", sans-serif;
+    margin-top: 2em; }
+  #consultation #center_column p {
+    font-size: 1.2em;
+    margin: 1 em;
+    line-height: 1.8em;
+    font-family: "Proxima", "Roboto", sans-serif;
+    text-align: justify; }
+  #consultation #center_column figure {
+    padding: 0; }
+    #consultation #center_column figure .cloth {
+      height: 70vh;
+      width: 100%;
+      object-fit: cover;
+      object-position: top; }
+  #consultation #center_column .text {
+    padding-top: 3em; }
+  #consultation #center_column hr {
+    border-top: 2px solid #444;
+    width: 60px;
+    clear: both;
+    border-width: 1px 0 0;
+    margin: 20px 4em;
+    height: 0; }
+  #consultation #center_column .last-mtm {
+    margin-top: 0; }
+  #consultation #center_column .logos {
+    padding: 0 20vw;
+    margin: 0 0 5em 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around; }
+    #consultation #center_column .logos figure {
+      margin: 0 20px; }
+      #consultation #center_column .logos figure img {
+        max-width: 135px; }
+  #consultation #center_column .center {
+    text-align: center;
+    margin: 4em 0; }
+    #consultation #center_column .center h2,
+    #consultation #center_column .center h4 {
+      margin: 3em 0; }
+  #consultation #center_column button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color: #a98f5c;
+    border: 4px solid #a98f5c;
+    background: #ffffff;
+    padding: 1em 2em;
+    font-size: 1.2em; }
+  #consultation #center_column button:hover {
+    opacity: 0.6; }
+  #consultation #center_column .measurement {
+    display: inline; }
+@media (min-width: 768px) {
+  #consultation .columns-container .container {
+    max-width: 100%; } }
+
+/*# sourceMappingURL=consultation.css.map */

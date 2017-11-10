@@ -3,7 +3,7 @@
 	<div id="block_top_menu" class="sf-contener clearfix col-lg-12">
 		<div class="cat-title">{l s="Menu" mod="blocktopmenu"}</div>
 		<a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}">
-											<img class="logo-min img-responsive" src="/img/ssmlogolengthlp.png" alt="{$shop_name|escape:'html':'UTF-8'}"/>
+											<img class="logo-min img-responsive" src="/img/ssmlogolength.png" alt="{$shop_name|escape:'html':'UTF-8'}"/>
 										</a>
 		<ul class="sf-menu clearfix menu-content">
 			{$MENU}
@@ -19,6 +19,19 @@
 					</form>
 				</li>
 			{/if}
+			<li>
+			<a href="creations" title="Creations">Creations</a>
+			</li>
+			<li>
+			<a href="suits-gallery" title="Gallery">Gallery</a>
+			</li>
+			<li>
+			<a href="appointments" title="Appointments">Appointments</a>
+				<ul class="submenu-container clearfix first-in-line-xs" style="display: none;">
+					<li><a href="appointments#guide" title="Appointments">Appointment Guide</a></li>
+					<li><a href="appointments#request" title="Appointments">Appointment Request</a></li>
+				</ul>
+			</li>		
 		</ul>
 	</div>
 	<!--/ Menu -->

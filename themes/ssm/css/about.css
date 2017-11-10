@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:800");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'Great-Day-Personal-Use';
+  src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+#about .row {
+  margin-right: 0 !important;
+  margin-left: 0 !important; }
+#about #center_column {
+  padding: 0; }
+  #about #center_column h1 {
+    text-align: center;
+    font-family: "Proxima", "Catamaran", sans-serif;
+    font-size: 2.5em;
+    padding: 1em 0;
+    text-transform: uppercase;
+    color: #000; }
+  #about #center_column hr {
+    border-top: 2px solid #444;
+    width: 60px;
+    clear: both;
+    border-width: 1px 0 0;
+    margin: 20px 4em;
+    height: 0; }
+  #about #center_column h2 {
+    margin-left: 2em;
+    font-family: "Proxima", "Catamaran", sans-serif; }
+  #about #center_column h4 {
+    color: #a98f5c;
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 1.6em;
+    font-family: "Proxima", "Catamaran", sans-serif;
+    margin-top: 2em; }
+  #about #center_column h3 {
+    color: #a98f5c;
+    margin-left: 2em;
+    font-family: "Proxima", "Catamaran", sans-serif;
+    font-size: 2em; }
+  #about #center_column p {
+    font-size: 1.2em;
+    margin: 4em;
+    line-height: 1.8em;
+    font-family: "Proxima", "Roboto", sans-serif;
+    text-align: justify; }
+  #about #center_column figure {
+    padding: 0; }
+  #about #center_column .center {
+    text-align: center;
+    margin: 2em 0; }
+    #about #center_column .center h2,
+    #about #center_column .center h4 {
+      margin: 3em 0; }
+    #about #center_column .center hr {
+      margin: 20px auto; }
+  #about #center_column .text {
+    padding-top: 3em; }
+  #about #center_column .center {
+    text-align: center;
+    margin: 4em 0; }
+    #about #center_column .center h2,
+    #about #center_column .center h4 {
+      margin: 3em 0; }
+  #about #center_column .dike {
+    font-family: "Great-Day-Personal-Use", sans-serif;
+    font-size: 1.2em; }
+    #about #center_column .dike img {
+      margin: 0 .5em; }
+  #about #center_column .center-pic {
+    text-align: center; }
+    #about #center_column .center-pic img {
+      width: 40%;
+      margin: 0 auto;
+      object-fit: cover;
+      object-position: top; }
+  #about #center_column #quote {
+    text-align: center;
+    font-family: "Great-Day-Personal-Use", sans-serif;
+    font-size: 2.5em;
+    color: #000000;
+    font-weight: 600;
+    margin-top: 1em; }
+@media (min-width: 768px) {
+  #about .columns-container .container {
+    max-width: 100%; } }
+
+/*# sourceMappingURL=about.css.map */

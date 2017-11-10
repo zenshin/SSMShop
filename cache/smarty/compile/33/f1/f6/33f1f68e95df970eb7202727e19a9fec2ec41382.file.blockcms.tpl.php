@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-10-03 22:58:16
+<?php /* Smarty version Smarty-3.1.19, created on 2017-10-29 13:14:46
          compiled from "/Applications/MAMP/htdocs/SSMShop/themes/ssm/modules/blockcms/blockcms.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:76615801259d407f850e747-51426869%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:196074220359f5d4468628e2-60264279%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '33f1f68e95df970eb7202727e19a9fec2ec41382' => 
     array (
       0 => '/Applications/MAMP/htdocs/SSMShop/themes/ssm/modules/blockcms/blockcms.tpl',
-      1 => 1505511613,
+      1 => 1507845179,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '76615801259d407f850e747-51426869',
+  'nocache_hash' => '196074220359f5d4468628e2-60264279',
   'function' => 
   array (
   ),
@@ -38,9 +38,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59d407f86d0e57_67265684',
+  'unifunc' => 'content_59f5d4478709e7_89945794',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59d407f86d0e57_67265684')) {function content_59d407f86d0e57_67265684($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_59f5d4478709e7_89945794')) {function content_59f5d4478709e7_89945794($_smarty_tpl) {?>
 
 <?php if ($_smarty_tpl->tpl_vars['block']->value==1) {?>
 	<!-- Block CMS module -->
@@ -116,18 +116,14 @@ $_smarty_tpl->tpl_vars['cms_page']->_loop = true;
 		<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 	<h4>
 			<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('artofmaking'), ENT_QUOTES, 'UTF-8', true);?>
-" title="<?php echo smartyTranslate(array('s'=>'Contact us','mod'=>'blockcms'),$_smarty_tpl);?>
+" title="<?php echo smartyTranslate(array('s'=>'Art of making','mod'=>'art-of-making'),$_smarty_tpl);?>
 ">
 				Art of making
 			</a>
 		</h4>
 		<ul class="toggle-footer">
 			<li class="item">
-					<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('prices-drop'), ENT_QUOTES, 'UTF-8', true);?>
-" title="<?php echo smartyTranslate(array('s'=>'Specials','mod'=>'blockcms'),$_smarty_tpl);?>
-">
-						Half and full canvas
-					</a>
+					
 			</li>
 			</ul>
 		</section>
@@ -193,10 +189,17 @@ $_smarty_tpl->tpl_vars['cms_page']->_loop = true;
 </h4>
 		<ul class="toggle-footer">
 		<li class="item">
-					<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('madetomeasure'), ENT_QUOTES, 'UTF-8', true);?>
-" title="<?php echo smartyTranslate(array('s'=>'Specials','mod'=>'blockcms'),$_smarty_tpl);?>
+					<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('consultation'), ENT_QUOTES, 'UTF-8', true);?>
+" title="<?php echo smartyTranslate(array('s'=>'Private Tailoring Consultations','mod'=>'consultation'),$_smarty_tpl);?>
 ">
-						Private Tailoring 
+						Private Tailoring Consultation
+					</a>
+				</li>
+					<li class="item">
+					<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('overseas'), ENT_QUOTES, 'UTF-8', true);?>
+" title="<?php echo smartyTranslate(array('s'=>'Overseas visits','mod'=>'overseas'),$_smarty_tpl);?>
+">
+						Overseas visits
 					</a>
 				</li>
 				<li class="item">

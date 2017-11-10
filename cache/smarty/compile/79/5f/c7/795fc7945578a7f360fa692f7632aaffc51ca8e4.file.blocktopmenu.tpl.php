@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-10-03 22:58:15
+<?php /* Smarty version Smarty-3.1.19, created on 2017-10-29 13:14:45
          compiled from "/Applications/MAMP/htdocs/SSMShop/themes/ssm/modules/blocktopmenu/blocktopmenu.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:213132348259d407f7db1b70-69668325%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:144671683659f5d445e3b928-88265004%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '795fc7945578a7f360fa692f7632aaffc51ca8e4' => 
     array (
       0 => '/Applications/MAMP/htdocs/SSMShop/themes/ssm/modules/blocktopmenu/blocktopmenu.tpl',
-      1 => 1502443045,
+      1 => 1508790939,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '213132348259d407f7db1b70-69668325',
+  'nocache_hash' => '144671683659f5d445e3b928-88265004',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59d407f805c4c2_26862736',
+  'unifunc' => 'content_59f5d4460f2a72_53411956',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59d407f805c4c2_26862736')) {function content_59d407f805c4c2_26862736($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['MENU']->value!='') {?>
+<?php if ($_valid && !is_callable('content_59f5d4460f2a72_53411956')) {function content_59f5d4460f2a72_53411956($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['MENU']->value!='') {?>
 	<!-- Menu -->
 	<div id="block_top_menu" class="sf-contener clearfix col-lg-12">
 		<div class="cat-title"><?php echo smartyTranslate(array('s'=>"Menu",'mod'=>"blocktopmenu"),$_smarty_tpl);?>
@@ -38,7 +38,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php } else { ?><?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php }?>" title="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['shop_name']->value, ENT_QUOTES, 'UTF-8', true);?>
 ">
-											<img class="logo-min img-responsive" src="/img/ssmlogolengthlp.png" alt="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['shop_name']->value, ENT_QUOTES, 'UTF-8', true);?>
+											<img class="logo-min img-responsive" src="/img/ssmlogolength.png" alt="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['shop_name']->value, ENT_QUOTES, 'UTF-8', true);?>
 "/>
 										</a>
 		<ul class="sf-menu clearfix menu-content">
@@ -58,6 +58,21 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					</form>
 				</li>
 			<?php }?>
+			<li>
+			<a href="appointments" title="Appointments">Appointments</a>
+				<ul class="submenu-container clearfix first-in-line-xs" style="display: none;">
+					<li><a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('consultation'), ENT_QUOTES, 'UTF-8', true);?>
+" title="<?php echo smartyTranslate(array('s'=>'Private Tailoring Consultations','mod'=>'consultation'),$_smarty_tpl);?>
+">
+						Private Tailoring Consultation
+					</a></li>
+					<li><a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('overseas'), ENT_QUOTES, 'UTF-8', true);?>
+" title="<?php echo smartyTranslate(array('s'=>'Overseas visits','mod'=>'overseas'),$_smarty_tpl);?>
+">
+						Overseas visits
+					</a></li>
+				</ul>
+			</li>		
 		</ul>
 	</div>
 	<!--/ Menu -->

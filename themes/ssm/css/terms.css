@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:800");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'Great-Day-Personal-Use';
+  src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+#terms {
+  font-family: "Proxima", "Open+Sans", Helvetica, sans-serif; }
+  #terms #columns {
+    max-width: 1000px; }
+    #terms #columns h1 {
+      text-align: center;
+      margin: 2em auto;
+      font-family: "Proxima", "Open+Sans", Helvetica, sans-serif;
+      text-transform: uppercase; }
+    #terms #columns div {
+      text-align: justify; }
+      @media screen and (max-width: 768px) {
+        #terms #columns div {
+          text-align: left; } }
+      #terms #columns div h2 {
+        font-family: "Proxima", "Open+Sans", Helvetica, sans-serif;
+        font-size: 1.8em; }
+      #terms #columns div p {
+        font-size: 1.2em; }
+      #terms #columns div ul {
+        list-style: outside;
+        padding-left: 25px; }
+        #terms #columns div ul li {
+          font-size: 1.2em;
+          margin: 1em auto; }
+
+/*# sourceMappingURL=terms.css.map */

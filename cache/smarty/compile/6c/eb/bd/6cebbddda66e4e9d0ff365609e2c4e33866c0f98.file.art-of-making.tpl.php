@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-10-03 21:03:59
+<?php /* Smarty version Smarty-3.1.19, created on 2017-10-10 21:30:29
          compiled from "/Applications/MAMP/htdocs/SSMShop/themes/ssm/art-of-making.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:26760890759d3ed2f635ab4-46178176%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:133668712159dd2de545f397-73266264%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '6cebbddda66e4e9d0ff365609e2c4e33866c0f98' => 
     array (
       0 => '/Applications/MAMP/htdocs/SSMShop/themes/ssm/art-of-making.tpl',
-      1 => 1507061003,
+      1 => 1507665358,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '26760890759d3ed2f635ab4-46178176',
+  'nocache_hash' => '133668712159dd2de545f397-73266264',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_59d3ed2f639c55_78094647',
+  'unifunc' => 'content_59dd2de54609f7_78061761',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59d3ed2f639c55_78094647')) {function content_59d3ed2f639c55_78094647($_smarty_tpl) {?><div class="jumbotron">
+<?php if ($_valid && !is_callable('content_59dd2de54609f7_78061761')) {function content_59dd2de54609f7_78061761($_smarty_tpl) {?><div class="jumbotron">
   <div class="container">
     <h1>Art of making</h1>
   </div>
@@ -38,7 +38,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </section>
 
     <section class="row">
-        <div class="col-xs-12 col-sm-5 col-sm-offset-1 text">
+        <div class="col-xs-12 col-sm-6 text">
             <h2>THE FULL CANVAS SUIT</h2>
             <hr>
             <p>Fully canvassed as the name conveys is quite simply a suit of sheer quality. Traditionally, this type of suit
@@ -49,7 +49,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 to your body gradually molding a flawless fit. Long lifespan is achieved through rubbing tension at friction
                 points, i.e. shoulders, elbows, allowing your suit breathability space and the ability to circulate flexibly
                 and freely. A chest canvas serves the following purposes:
-                <ul>
+                <ul class="aom-ul">
                     <li>It provides physical weight to the jacket </li>
                     <li> It allows a tailor to manipulate the roll of the lapels</li>
                     <li> It keeps the chest plate clean with no sagging, bubbling or wrinkling. This is what makes a sit so powerful
@@ -61,12 +61,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             </p>
         </div>
         <figure class="col-xs-12 col-sm-6">
-            <img class="img-responsive" src="../img/made-to-measure-suit.jpg" alt="the corporate">
+            <img class="img-responsive" src="../img/full-canvas.jpg" alt="the corporate">
         </figure>
     </section>
 
     <section class="row">
-        <div class="col-xs-12 col-sm-5 col-sm-offset-1 pull-right text">
+        <div class="col-xs-12 col-sm-6 pull-right text">
             <h2>THE HALF CANVAS SUIT</h2>
             <hr>
             <p>As the name indicates, half canvas suits have canvas material running across the chest and lapel of the jacket
@@ -78,12 +78,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             </p>
         </div>
         <figure class="col-xs-12 col-sm-6 pull-left">
-            <img class="img-responsive" src="../img/modern-elegant-arches.jpg" alt="the leisure apparel">
+            <img class="img-responsive" src="../img/half-canvas.jpg" alt="the leisure apparel">
         </figure>
     </section>
 
     <section class="row">
-        <div class="col-xs-12 col-sm-5 col-sm-offset-1 text">
+        <div class="col-xs-12 col-sm-6 text">
             <h2>THE UNSTRUCTURED SUIT / JACKET</h2>
             <hr>
             <p>
@@ -100,7 +100,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 From a subjective point, an unstructured jacket should be half-canvassed rather than a full canvas in order
                 to make the overall garment lighter and more flexible. The advantages of an unstructured suit jacket are
                 as follow:
-                <ul>
+                <ul ul class="aom-ul">
                     <li>The garment is lighter in physical weight, less restricting and more comfortable due to greater range
                         of motion.
                     </li>
@@ -122,7 +122,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             </p>
         </div>
         <figure class="col-xs-12 col-sm-6">
-            <img class="img-responsive" src="../img/tuxedo.jpg" alt="the special event">
+            <img class="img-responsive" src="../img/unstructured-suit.jpg" alt="the special event">
         </figure>
     </section>
 </div><?php }} ?>

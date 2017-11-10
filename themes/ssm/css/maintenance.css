@@ -9,6 +9,11 @@
   src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
 /*********************************************************************
 					Maintenance Page Styles
 **********************************************************************/
@@ -29,12 +34,12 @@
     margin: 0 0 31px 0;
     text-align: center; }
   #maintenance h1 {
-    font: 24px "Lato", sans-serif;
+    font: 24px "Proxima", "Lato", sans-serif;
     color: #000000;
     padding: 0 0 14px 0;
     margin: 0 0 19px 0; }
   #maintenance #message {
-    font: 14px "Lato", sans-serif;
+    font: 14px "Proxima", "Lato", sans-serif;
     padding: 0 0 0 18px;
     color: #555454;
     text-align: center; }

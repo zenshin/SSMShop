@@ -47,7 +47,9 @@ ul.product_list {
 		img {
 			margin: 0 auto;
 			object-fit: cover;
-			height: 40vh;
+			height: 50vmin;
+			width: 100vmin;
+			width: -webkit-fill-available;
 		}
 		.quick-view-wrapper-mobile {
 			display: none;
