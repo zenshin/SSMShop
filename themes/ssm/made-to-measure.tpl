@@ -1,9 +1,9 @@
-<!--{capture name=path}{l s='Art-of-making'}{/capture}-->
+{capture name=path}{l s='madetomeasure'}{/capture}
 <div class="jumbotron">
     <div class="container">
-        <h1>Made to measure</h1>
+        <h1>{l s='header title'}</h1>
         <!--<figure><img class="img-responsive" src="../img/tailoring.jpg" alt="made to measure"></figure>-->
-        <h2>AN INVESTMENT ON THE JOURNEY TO A FULLY CUSTOM EXPERIENCE</h2>
+        <h2>{l s='header subtitle'}</h2>
 
     </div>
 </div>
@@ -11,35 +11,18 @@
     <div class="row center">
 
         <hr>
-        <p>
-            The tailor’s natural dexterity and artisanal craftsmanship is one of the most advanced guild of vocations of our society.
-            We are delighted to be able to offer the retained legacy within the SUITSURMESUR Made to Measure collection by
-            creating unique custom pieces for every occasion sans exception. Our custom offering neatly bridges the gap of
-            high street ready to wear and offers the client a quick and efficient way to have a suit made to his own specifications.
-            From corporate suits to casual clothing items, we strive to work closely with our clients to design masterpieces
-            that mirror their image with a twist that draws inspiration from our cultural heritage yet giving every SUITSURMESUR
-            creations a chic and unique exotic appeal. Our suits are tailored using many of the traditional Savile Row methods
-            usually associated with bespoke suits and take about 6 to 7 weeks to make.</p>
+        <p>{l s='intro1'}</p>
 
-            <p>Our exclusive Made to Measure choice is for the quintessential gentleman looking for tailored luxury suits,
-            selected from a wide range of hand-selected opulent fabrics and created for the client’s personal expression
-            of sartorial excellence. Our suits are made from an existing pattern that can be adapted to fit the shape of
-            your body and has been developed to create a flattering appearance, whilst still adhering to Savile Row Made
-            to Measure standard. They are also half or fully canvassed making for a sharper and cleaner drape along your
-            body contours and on the entirety of your two or three piece, particularly good for super-lightweight cloths.</p>
+            <p>{l s='intro2'}</p>
 
-            <p>You can choose all details such as internal trimmings, traditional fabric linings and our personalised in
-            house exotic linings, buttons, pockets and you can also tweak your suit to fit your individual style with ease.</p>
+            <p>{l s='intro3'}</p>
     </div>
 
     <section class="row">
         <div class="col-xs-12 {* {*col-sm-5 col-sm-offset-1 *} col-sm-6  *} col-sm-6 text">
-            <h2>THE CORPORATE</h2>
+            <h2>{l s='corpo title'}</h2>
             <hr>
-            <p>Whether you want a timeless look that will distinguish you just as well in your upcoming business meetings, job
-                interviews our corporate suits reflect your aspiration & success. We understand that professional presentation
-                is essential to your working environment. We endeavour to design a piece that intrinsically resonates with
-                your personality and corporate core value.</p>
+            <p>{l s='corpo content'}</p>
         </div>
         <figure class="col-xs-12 col-sm-6">
             <img class="img-responsive" src="../img/made-to-measure-suit.jpg" alt="the corporate">
@@ -48,11 +31,9 @@
 
     <section class="row">
         <div class="col-xs-12  {*col-sm-5 col-sm-offset-1 *} col-sm-6  pull-right text">
-            <h2>THE LEISURE APPAREL</h2>
+            <h2>{l s='leisure title'}</h2>
             <hr>
-            <p>From blazers to sports jackets and trousers whether for formal or casual events, we provide you unique luxury
-                couture to ensure that you look the part even when dressed down.
-            </p>
+            <p>{l s='leisure content'}</p>
         </div>
         <figure class="col-xs-12 col-sm-6 pull-left">
             <img class="img-responsive" src="../img/modern-elegant-arches-mtm.jpg" alt="the leisure apparel">
@@ -61,11 +42,9 @@
 
     <section class="row">
         <div class="col-xs-12  {*col-sm-5 col-sm-offset-1 *} col-sm-6  text">
-            <h2>THE SPECIAL EVENT</h2>
+            <h2>{l s='special title'}</h2>
             <hr>
-            <p>Whether a tuxedo for a black tie event, evening cocktail party, a special suit for a luncheon or ceremonial suits
-                for wedding events, we work closely with you to create a perfect unique piece that meets your needs and much
-                more.</p>
+            <p>{l s='special content'}</p>
         </div>
         <figure class="col-xs-12 col-sm-6">
             <img class="img-responsive" src="../img/tuxedo-mtm.jpg" alt="the special event">
@@ -74,29 +53,20 @@
 
     <section class="row">
         <div class="col-xs-12  {*col-sm-5 col-sm-offset-1 *} col-sm-6  pull-right text">
-            <h2>THE CUSTOM SHIRTS</h2>
+            <h2>{l s='shirt title'}</h2>
             <hr>
-            <p>In addition to our custom suit offerings, we offer a premium custom shirting service to compliment our tailored
-                garments. All SUITSURMESUR custom shirts are made to the exacting standards set by Jermyn Street, the heart
-                of British shirt making. Our shirting service offers a range of luxurious cottons of twill and poplins with
-                an array of collar shapes and hand stitched monograms.
-                <br>
-                <br>All shirts are tailored using the client’s personal pattern, thus providing perfectly complimentary suit
-                and shirt combinations. For any occasion, our formal or casual custom shirt is an essential to every gentleman’s
-                wardrobe. Our personalised shirt service is the definitive in men’s luxury collection. </p>
+            <p>{l s='shirt content'} </p>
         </div>
         <figure class="col-xs-12 col-sm-6 pull-left">
             <img class="img-responsive" src="../img/Chemise_homme_blanche.jpg" alt="the formal and casual shirts">
         </figure>
     </section>
     <section class="row">
-        <h4>LUXURY MASTERPIECES</h4>
-        <h3>CONTEMPORARY, ELEGANT & EXQUISITELY UNIQUE</h3>
-        <p class="center">SUITSURMESUR ensures each Made to Measure suit or clothing accoutrement is sourced and cut from the finest opulent
-            fabrics. We work in close partnership with top industry experts offering a huge range of contemporary fabrics
-            from Loro Piana, Solbiati, Scabal, Holland & Sherry, Dormeuil and more.</p>
+        <h4>{l s='luxury title'}</h4>
+        <h3>{l s='luxury subtitle'}</h3>
+        <p class="center">{l s='luxury conent'}</p>
         </br>
-        <p class="center last-mtm">Our key industry partners</p>
+        <p class="center last-mtm">{l s='partners'}</p>
         <div class="logos">
 
             <figure>
@@ -128,6 +98,6 @@
 
 
         </div>
-        <button><a href="/appointments#request"><strong>GET IN TOUCH</strong></a></button>
+        <button><a href="/appointments#request"><strong>{l s='touch'}</strong></a></button>
     </section>
 </div>

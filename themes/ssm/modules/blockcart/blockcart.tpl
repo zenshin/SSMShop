@@ -26,6 +26,7 @@
 {if isset($blockcart_top) && $blockcart_top}
 <div class="{if $PS_CATALOG_MODE} header_user_catalog{/if}">
 {/if}
+{if $cart_qties >= 1} 
 	<div class="shopping_cart">
 		<a href="{$link->getPageLink($order_process, true)|escape:'html':'UTF-8'}" title="{l s='View my shopping cart' mod='blockcart'}" rel="nofollow">
 			<b>{l s='Cart' mod='blockcart'}</b>
@@ -199,6 +200,7 @@
 					</div>
 				</div>
 			</div><!-- .cart_block -->
+		{/if}
 		{/if}
 	</div>
 {if isset($blockcart_top) && $blockcart_top}

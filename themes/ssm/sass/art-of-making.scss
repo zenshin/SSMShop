@@ -27,6 +27,7 @@
     }
     h2 {
         margin-left: 2em;
+        margin-top: 3em;
         font-family: $font-cata;
     }
     h3 {
@@ -56,6 +57,102 @@
         ul {
             li {
                 margin: 1em 5em 0 5em;
+            }
+        }
+    }
+    #info-box {
+        top: 350px;
+    }
+    #info-box-2 {
+        top: 510px;
+    }
+    #info-box,
+    #info-box-2 {
+        left: -830px;
+        margin-top: 75px;
+        width: 900px;
+        height: 605px;
+        float: left;
+        position: absolute;
+        max-width: 100%;
+        .info-block {
+            position: absolute;
+            opacity: 0;
+            background: #FFFFFF;
+            z-index: 10;
+            width: 900px;
+            height: 150px;
+            padding: 20px;
+            -webkit-box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
+            -moz-box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
+            box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
+            max-width: 85%;
+            .close-button {
+                display: block;
+                width: 20px;
+                height: 20px;
+                background: transparent url(../img/cross-close.png) center/80% no-repeat;
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                cursor: pointer;
+            }
+        }
+        .info-box-image {
+            display: block;
+            overflow: hidden;
+            -webkit-box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
+            -moz-box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
+            box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
+            margin-bottom: 30px;
+        }
+        .info-box-title {
+            color: #001948;
+            font-size: 18px;
+            line-height: 22px;
+            text-transform: uppercase;
+        }
+        .info-box-description {
+            color: #001946;
+            line-height: 22px;
+            padding: 0;
+        }
+    }
+    #suit-box img {
+        position: absolute;
+        height: 98%;
+        max-width: 461%;
+    }
+    #suit-box-2 img {
+        position: absolute;
+        height: 80%;
+        max-width: 509%;
+        left: 70%;
+        top: 4%;
+    }
+    #suit-box {
+        height: 620px;
+    }
+    #suit-box-2 {
+        height: 796px;
+    }
+    #suit-box,
+    #suit-box-2 {
+        position: relative;
+        display: block;
+        float: left;
+        margin-left: 0px;
+        .point {
+            position: absolute;
+            display: block;
+            width: 21px;
+            height: 21px;
+            background: transparent url(../img/point_2.png) no-repeat 0 0;
+            cursor: pointer;
+            .title,
+            .description,
+            .image {
+                display: none;
             }
         }
     }

@@ -39,14 +39,14 @@
             font-family: $font-cata;
         }
         h3 {
-            color: #a98f5c;
+            color: $gold;
             margin: 0 15%;
             font-family: $font-cata;
             font-size: 2em;
             text-align: center;
         }
         h4 {
-            color: #a98f5c;
+            color: $gold;
             font-size: 1.8em;
             text-align: center;
             line-height: 1.6em;
@@ -55,7 +55,7 @@
         }
         p {
             font-size: 1.2em;
-            margin: 1em;
+            margin: 0 4em 9px;
             line-height: 1.8em;
             font-family: $font-robo;
             text-align: justify;
@@ -99,11 +99,14 @@
             text-align: center;
             display: block;
             margin: 0 auto;
-            color: #a98f5c;
-            border: 4px solid #a98f5c;
+            color: $gold;
+            border: 4px solid $gold;
             background: #ffffff;
             padding: 1em 2em;
             font-size: 1.2em;
+            a {
+                text-transform: uppercase;
+            }
         }
         button:hover {
             opacity: 0.6;

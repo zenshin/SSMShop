@@ -14,6 +14,12 @@
   src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
 /*** ESSENTIAL STYLES ***/
 .sf-contener {
   clear: both;
@@ -151,11 +157,12 @@ ul.sf-menu li li li.sfHover ul {
   padding: 15px;
   width: 20%; }
   .sf-menu > li > ul > li > a {
+    text-transform: uppercase;
     font: 600 16px;
     font-family: "Proxima", "Open+Sans", Helvetica, sans-serif;
     color: #fff; }
     .sf-menu > li > ul > li > a:hover {
-      color: #515151; }
+      color: #a39161; }
 
 .sf-menu > li > ul > li {
   width: 100%;

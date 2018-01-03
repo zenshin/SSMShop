@@ -14,6 +14,12 @@
   src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
 .header_user_info {
   float: right; }
   .header_user_info a {
@@ -23,7 +29,7 @@
     padding: 8px 9px 11px 8px;
     cursor: pointer;
     line-height: 18px;
-    font-size: 1.5em; }
+    font-size: 1em; }
     @media (max-width: 479px) {
       .header_user_info a {
         font-size: 11px; } }

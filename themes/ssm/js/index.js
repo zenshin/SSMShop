@@ -24,31 +24,6 @@
  */
 
 $(document).ready(function () {
-	//progress bar init
-	var $progressBar = $('.progress-bar');
-
-	// 1st carousel, main
-	$('.main-carousel').flickity({
-		// options
-		cellAlign: 'left',
-		contain: true,
-		pageDots: false
-	}).on('scroll.flickity', function (event, progress) {
-		progress = Math.max(0, Math.min(1, progress));
-		$progressBar.width(progress * 55 + '%');
-	});
-	// 2nd carousel, navigation
-
-	$('.carousel-nav').flickity({
-		asNavFor: '.main-carousel',
-		contain: true,
-		pageDots: false,
-		prevNextButtons: false,
-		draggable: true
-	});
-
-
-
 	$('#home-page-tabs li:first, #index .tab-content ul:first').addClass('active');
 	var scroll_start = 0;
 	var startchange = $('.columns-container');
@@ -72,5 +47,27 @@ $(document).ready(function () {
 		} else {
 			$('.product-name').removeClass('visible');
 		}
+	});
+	//progress bar init
+	var $progressBar = $('.progress-bar');
+
+	// 1st carousel, main
+	$('.main-carousel').flickity({
+		// options
+		cellAlign: 'left',
+		contain: true,
+		pageDots: false
+	}).on('scroll.flickity', function (event, progress) {
+		progress = Math.max(0, Math.min(1, progress));
+		$progressBar.width(progress * 55 + '%');
+	});
+	// 2nd carousel, navigation
+
+	$('.carousel-nav').flickity({
+		asNavFor: '.main-carousel',
+		contain: true,
+		pageDots: false,
+		prevNextButtons: false,
+		draggable: true
 	});
 });

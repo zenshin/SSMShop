@@ -193,14 +193,18 @@ header {
 			width: 100%;
 		}
 		#header_logo {
-			width: 60em;
+			/*width: 60em;
 			position: absolute;
 			left: 50%;
-			margin-left: -30em;
+			margin-left: -30em;*/
 			/*width: 50em;
 			position: absolute;
 			left: 50%;
 			margin-left: -25em;*/
+			width: 55em;
+			position: absolute;
+			left: 50%;
+			margin-left: -27.5em;
 			z-index: 1;
 			@media (max-width: $screen-md) {
 				padding-top: 40px;
@@ -220,7 +224,7 @@ header {
 		}
 	}
 	.logo-min {
-		max-width: 300px;
+		max-width: 295px;
 		display: none;
 		position: absolute;
 		z-index: 2;
@@ -329,9 +333,13 @@ label {
 }
 
 .label-success {
-	color: #7C6945;
+	background-color: $gold !important;
+	border: 1px solid $gold !important;
 }
-
+.label-danger {
+    background-color: #c7c3b4 !important;
+    border: 1px solid #a59667 !important;
+}
 .unvisible {
 	display: none;
 }
@@ -477,7 +485,7 @@ span.exclusive {
 		display: block;
 		padding: 3px 8px 3px 8px;
 		border: 1px solid;
-		border-color: #8b8a8a;
+		border-color: $gold;
 		i {
 			vertical-align: 0px;
 			margin-right: 5px;
@@ -499,16 +507,17 @@ span.exclusive {
 	color: $button-text-color;
 	padding: 0;
 	font-weight: bold;
-	background: rgb(124, 105, 69);
-	@include gradient-vertical(rgba(124, 105, 69, 1), rgba(123, 94, 67, 1));
+	background: $gold;
+	@include gradient-vertical($gold, $gold);
 	border: 1px solid;
-	border-color: #7C6845 #7C6945 #7C6945 #7C6945;
+	border-color: $gold $gold $gold $gold;
 	@include border-radius(0);
 	span {
 		display: block;
 		padding: 10px 10px 10px 14px;
 		border: 1px solid;
-		border-color: #7C6945; // max 480px
+		border-color: $gold; // max 480px
+		text-transform: capitalize;
 		@media (max-width: $screen-xs) {
 			font-size: 15px;
 			padding-right: 7px;
@@ -536,7 +545,7 @@ span.exclusive {
 	&:hover {
 		background: rgb(129, 105, 69);
 		@include gradient-vertical(rgba(129, 105, 69, 1), rgba(123, 94, 67, 1));
-		border-color: #7C6945 #7C6945 #7C6945 #7C6945;
+		border-color: $gold $gold $gold $gold;
 	}
 }
 
@@ -754,7 +763,7 @@ table.table_block td {
 .product-name {
 	font-size: 17px;
 	line-height: 23px;
-	color: $product-name-color;
+	color: $gold;
 	margin-bottom: 0;
 	a {
 		font-size: 17px;
@@ -969,11 +978,11 @@ table.table_block td {
 }
 
 .product-box {
-	width: 178px;
+	width: 280px;
 	float: left;
 	@include box-sizing(border-box);
 	.product-image {
-		border: $main_border;
+		//	border: $main_border;
 		background: white;
 		padding: 5px;
 		display: block;
@@ -1178,6 +1187,7 @@ table.table_block td {
 	color: $base-heading-color;
 	text-transform: uppercase;
 	padding: 0px 0px 17px 0px;
+	margin-top: 90px;
 	margin-bottom: 30px;
 	border-bottom: 1px solid $base-border-color;
 	overflow: hidden;
@@ -1218,7 +1228,16 @@ table.table_block td {
 }
 
 h3.page-product-heading {
-	@include sub-heading;
+	text-transform: uppercase;
+	font-family: "Proxima", "Lato", sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 20px;
+	padding: 14px 20px 17px;
+	margin: 0 0 20px;
+	position: relative;
+	border: 0;
+	background: #fff;
 } // BLOCK .footer_links (cms pages)
 ul.footer_links {
 	padding: 20px 0 0px 0;
@@ -1558,14 +1577,14 @@ ul.step {
 		}
 		&.step_current {
 			font-weight: bold;
-			background: rgb(66, 184, 86);
-			@include gradient-vertical(rgba(66, 184, 86, 1), rgba(67, 171, 84, 1));
-			border-color: #399b49 #51ae5c #208931 #369946;
+			background: $gold;
+			@include gradient-vertical($gold, #887850);
+			border-color: $gold;
 			span {
 				color: $light-text-color;
-				text-shadow: 1px 1px rgba(32, 137, 49, 1);
+				text-shadow: 1px 1px $gold;
 				border: 1px solid;
-				border-color: #73ca77 #74c776 #74c175 #74c776;
+				border-color: $gold;
 				position: relative; //min 991px
 				@media (min-width: $screen-md) {
 					padding-left: 38px;
@@ -1603,7 +1622,7 @@ ul.step {
 				color: $light-text-color;
 				text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 				border: 1px solid;
-				border-color: #8b8a8a; // min 991px
+				border-color: $gold; // min 991px
 				@media (min-width: $screen-md) {
 					padding-left: 38px;
 					&:after {
@@ -1855,18 +1874,19 @@ div.star a:hover {
 		}
 		.footer-block {
 			margin-top: 45px; // max 767px
+			letter-spacing: .9px;
 			@media (max-width: $screen-xs-max) {
 				margin-top: 20px;
 			}
 		}
 		a {
-			color: #7C6945;
+			color: $gold;
 			&:hover {
 				color: $light-text-color;
 			}
 		}
 		h4 {
-			font: 600 18px / 22px $font-custom;
+			font: 600 14px / 22px $font-custom;
 			text-transform: uppercase;
 			color: $light-text-color;
 			margin: 0 0 13px 0;
@@ -1895,9 +1915,10 @@ div.star a:hover {
 			li {
 				padding-bottom: 8px;
 				a {
-					font-weight: bold;
+					font-weight: 400;
+					font-size: 12px;
 					text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
-					text-transform: capitalize;
+					text-transform: uppercase;
 				}
 			}
 		}
@@ -1928,7 +1949,12 @@ div.star a:hover {
 						text-align: center;
 						padding-right: 12px;
 						float: left;
-						color: #7C6945;
+						color: $gold;
+					}
+				}
+				li:last-child {
+					a {
+						text-transform: lowercase;
 					}
 				}
 			}
@@ -1939,8 +1965,8 @@ div.star a:hover {
 	}
 	#social_block {
 		float: left;
-		width: 25%;
-		padding: 22px 15px 0 15px; // max 767px
+		width: -5px;
+		margin: 25px 0; // max 767px
 		@media (max-width: $screen-xs-max) {
 			width: 100%;
 			float: left;

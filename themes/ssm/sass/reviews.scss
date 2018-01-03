@@ -1,0 +1,99 @@
+@import "compass";
+@import "theme_variables";
+#reviews {
+    #center_column {
+        padding: 0;
+        h1 {
+            margin: 2em auto;
+            text-align: center;
+            font-family: $font-family;
+        }
+        .card {
+            background: url(../img/ssm-review-bg.png) center repeat;
+            height: 448px;
+            width: 448px;
+            border: 4px solid #a39161;
+            display: block;
+            position: relative;
+            -moz-box-shadow: rgba(0, 1, 1, 1) 0px 8px 24px;
+            -webkit-box-shadow: rgba(0, 1, 1, 1) 0px 8px 24px;
+            box-shadow: rgba(0, 1, 1, 1) 0px 8px 24px;
+            h2,
+            p {
+                color: #fff;
+            }
+            hr {
+                border-top: 2px solid #fff;
+                width: 60px;
+                clear: both;
+                border-width: 1px 0 0;
+                margin: 20px 0;
+                height: 0;
+            }
+        }
+        .card.left {
+            float: left;
+            margin-left: 15%;
+        }
+        .card.right {
+            float: right;
+            margin-right: 15%;
+        }
+        .card::after {
+            content: "";
+            background: url(../img/ssm-review-bg.png) center repeat;
+            opacity: 0.2;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
+        .post {
+            margin: 5em 0 0 0;
+            background: url(../img/reviews-background.png) center repeat;
+            height: 60vh;
+            border: 4px solid #a39161;
+            margin: 5em 15% !important;
+            -moz-box-shadow: rgba(0, 1, 1, 1) 0px 8px 24px;
+            -webkit-box-shadow: rgba(0, 1, 1, 1) 0px 8px 24px;
+            box-shadow: rgba(0, 1, 1, 1) 0px 8px 24px;
+            label {
+                color: $gold;
+                text-transform: uppercase;
+            }
+            .page-subheading {
+                padding: 15px 0 15px 15px;
+                color: $gold;
+                border: 0;
+            }
+            .submit.col-xs-12 {
+                display: inline-block;
+                text-align: center;
+                margin: 2em;
+            }
+            textarea.form-control {
+                height: auto;
+                min-height: 15vh;
+            }
+            .button.button-medium span {
+                text-transform: uppercase;
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        .columns-container {
+            .container {
+                max-width: 100%;
+                /*height: 64vh;*/
+                .row {
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {}

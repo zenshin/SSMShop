@@ -26,10 +26,7 @@
 <!-- Block payment logo module -->
 <div id="paiement_logo_block_left" class="paiement_logo_block">
 	<a href="{$link->getCMSLink($cms_payement_logo)|escape:'html'}">
-		<img src="{$img_dir}logo_paiement_amex.png" alt="american express" width="53" height="41" />
-		<img src="{$img_dir}logo_paiement_visa.png" alt="visa" width="53" height="41" />
-		<img src="{$img_dir}logo_paiement_mastercard.png" alt="mastercard" width="52" height="41" />
-		<img src="{$img_dir}logo_paiement_paypal.png" alt="paypal" width="81" height="41" />
+		<img src="{$img_dir}visa.mastercard.american.express.jpg" alt="secured online payment" height="46" />
 	</a>
 </div>
 <!-- /Block payment logo module -->

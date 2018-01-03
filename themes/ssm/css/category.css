@@ -14,14 +14,23 @@
   src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
 /* ************************************************************************************************
 								Categories Page Styles
 ************************************************************************************************ */
 .content_scene_cat {
-  border-top: 5px solid #000000;
   color: #d7d7d7;
   line-height: 19px;
   margin: 0 0 26px 0; }
+  .content_scene_cat .shop-intro {
+    text-align: center; }
+    .content_scene_cat .shop-intro h1 span.cat-name {
+      font-size: 1.6em; }
   .content_scene_cat .content_scene_cat_bg {
     padding: 18px 10px 10px 42px;
     background-color: #464646 !important; }
@@ -37,7 +46,9 @@
         font-size: 25px;
         line-height: 30px; } }
   .content_scene_cat p {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #000; }
   .content_scene_cat a {
     color: #fff; }
     .content_scene_cat a:hover {
@@ -55,29 +66,38 @@
 									Sub Categories Styles
 ************************************************************************************************ */
 #subcategories {
-  border-top: 1px solid #d6d4d4;
   padding: 15px 0 0px 0; }
   #subcategories p.subcategory-heading {
     font-weight: bold;
     color: #000000;
     margin: 0 0 15px 0; }
   #subcategories ul {
-    margin: 0 0 0 -20px; }
+    margin: 0 0 0 -20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
     #subcategories ul li {
       float: left;
-      width: 145px;
+      width: 370px;
       margin: 0 0 13px 33px;
       text-align: center;
-      height: 202px; }
+      height: 60vh; }
       #subcategories ul li .subcategory-image {
         padding: 0 0 8px 0; }
         #subcategories ul li .subcategory-image a {
           display: block;
-          padding: 9px;
-          border: 1px solid #d6d4d4; }
+          padding: 9px; }
           #subcategories ul li .subcategory-image a img {
             max-width: 100%;
-            vertical-align: top; }
+            vertical-align: top;
+            height: 41vmin; }
       #subcategories ul li .subcategory-name {
         font: 600 18px/22px "Proxima", "Lato", sans-serif;
         color: #555454;
@@ -87,7 +107,6 @@
       #subcategories ul li .cat_desc {
         display: none; }
       #subcategories ul li:hover .subcategory-image a {
-        border: 5px solid #000000;
-        padding: 5px; }
+        background: #e4ddca; }
 
 /*# sourceMappingURL=category.css.map */

@@ -37,13 +37,18 @@
 		position: absolute;
 		left: 0;
 		top: 0;
+		width: 50%;
+		margin: 15% 25%;
 		padding: 50px 50px;
 		cursor: pointer;
+		text-transform: uppercase;
+		background-color: rgba(0, 0, 0, 0.4);
 		h2 {
 			font-size: 2.7em;
 			color: white;
 			margin: 0;
 			padding: 0;
+			text-align: center;
 		}
 		p {
 			width: 50%;

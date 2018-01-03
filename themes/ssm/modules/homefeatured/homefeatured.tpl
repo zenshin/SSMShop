@@ -6,89 +6,81 @@ through the world-wide-web, please send an email * to license@prestashop.com so 
 PrestaShop for your * needs please refer to http://www.prestashop.com for more information. * * @author PrestaShop SA
 <contact@prestashop.com>
     * @copyright 2007-2016 PrestaShop SA * @license http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
-    * International Registered Trademark & Property of PrestaShop SA *} {if isset($products) && $products} {include file="$tpl_dir./product-list.tpl"
-    class='homefeatured tab-pane' id='homefeatured'} {else}
+    * International Registered Trademark & Property of PrestaShop SA *} 
+{if isset($products) && $products}
+	{include file="$tpl_dir./product-list.tpl" class='homefeatured tab-pane' id='homefeatured'}
+{else}
     <ul id="homefeatured" class="homefeatured tab-pane">
         <li class="alert alert-info">{l s='No featured products at this time.' mod='homefeatured'}</li>
     </ul>
-    {/if}
+{/if}
     <section class="process">
         <div class="process-header">
-            <h3>LEARN MORE ABOUT OUR PROCESS</h3>
-            <p>Our order process right to delivery is simple. We strive to bring the pinnacle of luxury custom made suits to
-                your doorstep.</p>
+            <h3>{l s='title 1' mod='homefeatured'}</h3>
+            <p>{l s='content 1' mod='homefeatured'}</p>
         </div>
         <div class="carousel main-carousel">
             <figure class="carousel-cell">
                 <img class="img-responsive" src="../img/dress-alteration-and-tailors.jpg" alt="">
                 <figcaption>
-                    <h3>CUSTOM MEASURMENT </h3>
-                    <p>Our custom service is our offer to visit you anywhere for exclusive measurement and creation of your
-                        suit. We get you measured and work in close harness with you to choose the right fabric, cut and
-                        design appropriate to your personal needs.</p>
+                    <h3>{l s='title 2' mod='homefeatured'}</h3>
+                    <p>{l s='content 2' mod='homefeatured'}</p>
                 </figcaption>
             </figure>
             <figure class="carousel-cell">
                 <img class="img-responsive" src="../img/tailor-cutting-fine-cloth.jpg" alt="">
                 <figcaption>
-                    <h3>CUTTING & SEWING </h3>
-                    <p>Our renowned tailors take the utmost care to understand the needs of our clients, having a minutious
-                        eye for details, working with precision to strict deadlines to produce a veritable work of art.</p>
+                    <h3>{l s='title 3' mod='homefeatured'}</h3>
+                    <p>{l s='content 3' mod='homefeatured'}</p>
             </figure>
             <figure class="carousel-cell">
                 <img class="img-responsive" src="../img/finishing.jpg" alt="">
                 <figcaption>
-                    <h3>FINISHING</h3>
-                    <p>Extra care is taken to ascertain that all our suit jackets are hand finished in certain areas and that
-                        customer’s personsalised requirements are complied with. </p>
+                    <h3>{l s='title 4' mod='homefeatured'}</h3>
+                    <p>{l s='content 4' mod='homefeatured'}</p>
                 </figcaption>
             </figure>
             <figure class="carousel-cell">
                 <img class="img-responsive" src="../img/made-to-measure-suit.jpg" alt="">
                 <figcaption>
-                    <h3>INSPECTION</h3>
-                    <p>Our quality control team assures that all our garments go through a high-level rigorous procedure to
-                        ensure compliance with the UK Savile Row Made To Measure suiting standard.</p>
+                    <h3>{l s='title 5' mod='homefeatured'}</h3>
+                    <p>{l s='content 5' mod='homefeatured'}</p>
                 </figcaption>
             </figure>
             <figure class="carousel-cell">
                 <img class="img-responsive" src="../img/suit-delivery-to-your-door.jpg" alt="">
                 <figcaption>
-                    <h3>PERSONALISED DELIVERY</h3>
-                    <p>Your exquisitely custom made clothing item is now ready for collection and can be personally delivered
-                        to your door step at your convenience within a time frame of 5-6 weeks from the original order.</p>
+                    <h3>{l s='title 6' mod='homefeatured'}</h3>
+                    <p>{l s='content 6' mod='homefeatured'}</p>
                 </figcaption>
             </figure>
         </div>
-                    
-<div class="progress-bar"></div>
-
-        <div class="carousel carousel-nav">
+        <div class="progress-bar"></div>
+            <div class="carousel carousel-nav">
                 <div class="carousel-cell">
-                    <div class="carindex">
-                        CUSTOM MEASURMENT
+                    <div class="carindex">{l s='index 1' mod='homefeatured'}
+                        
                     </div>
                 </div>
                 <div class="carousel-cell">
-                    <div class="carindex">
-                        CUTTING & SEWING
+                    <div class="carindex">{l s='index 2' mod='homefeatured'}
+                        
                     </div>
                 </div>
                 <div class="carousel-cell">
-                    <div class="carindex">
-                        FINISHING
+                    <div class="carindex">{l s='index 3' mod='homefeatured'}
+                        
                     </div>
                 </div>
                 <div class="carousel-cell">
-                    <div class="carindex">
-                        INSPECTION
+                    <div class="carindex">{l s='index 4' mod='homefeatured'}
+                        
                     </div>
                 </div>
                 <div class="carousel-cell">
-                    <div class="carindex">
-                        PERSONALISED DELIVERY
+                    <div class="carindex">{l s='index 5' mod='homefeatured'}
+                        
                     </div>
                 </div>
             </div>
-       
     </section>

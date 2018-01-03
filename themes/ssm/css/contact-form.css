@@ -14,6 +14,12 @@
   src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
 /**************************************************************************
 					Contact Page Styles
 **************************************************************************/
@@ -56,7 +62,7 @@
   .contact-form-box .form-group {
     margin-bottom: 7px; }
   .contact-form-box textarea {
-    height: 257px; }
+    height: 175px; }
   .contact-form-box .submit {
     margin-top: 13px; }
   .contact-form-box select.form-control {

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:800");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'Great-Day-Personal-Use';
+  src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
+#shirts #center_column {
+  padding: 0; }
+  #shirts #center_column h2 {
+    margin: 2em auto;
+    text-align: center;
+    font-family: "Proxima", "Open+Sans", Helvetica, sans-serif; }
+  #shirts #center_column #mySpriteSpin {
+    margin: 0 auto; }
+  #shirts #center_column .main-carousel .flickity-viewport {
+    max-height: 100vh !important; }
+    #shirts #center_column .main-carousel .flickity-viewport .flickity-slider .is-selected {
+      display: table; }
+  #shirts #center_column .carousel-nav .carousel-cell {
+    width: 200px; }
+@media (min-width: 768px) {
+  #shirts .columns-container .container {
+    max-width: 100%;
+    height: 64vh; }
+    #shirts .columns-container .container .row {
+      margin-left: 0 !important;
+      margin-right: 0 !important; } }
+
+@media screen and (max-width: 768px) {
+  img.custom-logo {
+    left: 68vw; }
+
+  .seriousslider {
+    height: 65vh; }
+
+  .seriousslider-inner > .item,
+  .seriousslider-inner > .item {
+    height: 75vh; }
+
+  .cryout-serious-slider .seriousslider-indicators,
+  .seriousslider-light .seriousslider-control {
+    display: none; }
+
+  .main h2 {
+    font-size: 1em; } }
+
+/*# sourceMappingURL=shirts.css.map */

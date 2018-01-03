@@ -14,6 +14,12 @@
   src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
 /******************************************************************************
 						Home Page Slider
 *******************************************************************************/
@@ -48,13 +54,18 @@
     position: absolute;
     left: 0;
     top: 0;
+    width: 50%;
+    margin: 15% 25%;
     padding: 50px 50px;
-    cursor: pointer; }
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.4); }
     #homepage-slider .homeslider-description h2 {
       font-size: 2.7em;
       color: white;
       margin: 0;
-      padding: 0; }
+      padding: 0;
+      text-align: center; }
     #homepage-slider .homeslider-description p {
       width: 50%;
       font-size: 1.15em;

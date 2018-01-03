@@ -14,6 +14,12 @@
   src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
 #artofmaking #center_column {
   padding: 0; }
 #artofmaking .jumbotron {
@@ -35,6 +41,7 @@
   font-family: "Proxima", "Catamaran", sans-serif; }
 #artofmaking h2 {
   margin-left: 2em;
+  margin-top: 3em;
   font-family: "Proxima", "Catamaran", sans-serif; }
 #artofmaking h3 {
   margin: 0 15%;
@@ -57,6 +64,96 @@
   height: 0; }
 #artofmaking .aom-ul ul li {
   margin: 1em 5em 0 5em; }
+#artofmaking #info-box {
+  top: 350px; }
+#artofmaking #info-box-2 {
+  top: 510px; }
+#artofmaking #info-box,
+#artofmaking #info-box-2 {
+  left: -830px;
+  margin-top: 75px;
+  width: 900px;
+  height: 605px;
+  float: left;
+  position: absolute;
+  max-width: 100%; }
+  #artofmaking #info-box .info-block,
+  #artofmaking #info-box-2 .info-block {
+    position: absolute;
+    opacity: 0;
+    background: #FFFFFF;
+    z-index: 10;
+    width: 900px;
+    height: 150px;
+    padding: 20px;
+    -webkit-box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
+    max-width: 85%; }
+    #artofmaking #info-box .info-block .close-button,
+    #artofmaking #info-box-2 .info-block .close-button {
+      display: block;
+      width: 20px;
+      height: 20px;
+      background: transparent url(../img/cross-close.png) center/80% no-repeat;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      cursor: pointer; }
+  #artofmaking #info-box .info-box-image,
+  #artofmaking #info-box-2 .info-box-image {
+    display: block;
+    overflow: hidden;
+    -webkit-box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px; }
+  #artofmaking #info-box .info-box-title,
+  #artofmaking #info-box-2 .info-box-title {
+    color: #001948;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase; }
+  #artofmaking #info-box .info-box-description,
+  #artofmaking #info-box-2 .info-box-description {
+    color: #001946;
+    line-height: 22px;
+    padding: 0; }
+#artofmaking #suit-box img {
+  position: absolute;
+  height: 98%;
+  max-width: 461%; }
+#artofmaking #suit-box-2 img {
+  position: absolute;
+  height: 80%;
+  max-width: 509%;
+  left: 70%;
+  top: 4%; }
+#artofmaking #suit-box {
+  height: 620px; }
+#artofmaking #suit-box-2 {
+  height: 796px; }
+#artofmaking #suit-box,
+#artofmaking #suit-box-2 {
+  position: relative;
+  display: block;
+  float: left;
+  margin-left: 0px; }
+  #artofmaking #suit-box .point,
+  #artofmaking #suit-box-2 .point {
+    position: absolute;
+    display: block;
+    width: 21px;
+    height: 21px;
+    background: transparent url(../img/point_2.png) no-repeat 0 0;
+    cursor: pointer; }
+    #artofmaking #suit-box .point .title,
+    #artofmaking #suit-box .point .description,
+    #artofmaking #suit-box .point .image,
+    #artofmaking #suit-box-2 .point .title,
+    #artofmaking #suit-box-2 .point .description,
+    #artofmaking #suit-box-2 .point .image {
+      display: none; }
 @media (min-width: 768px) {
   #artofmaking .columns-container .container {
     max-width: 100%; } }

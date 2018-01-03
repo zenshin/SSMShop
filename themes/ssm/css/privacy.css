@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:800");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'Great-Day-Personal-Use';
+  src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
+#privacy {
+  font-family: "Proxima", "Open+Sans", Helvetica, sans-serif; }
+  #privacy #columns {
+    max-width: 1000px; }
+    #privacy #columns h1 {
+      text-align: center;
+      margin: 2em auto;
+      font-family: "Proxima", "Open+Sans", Helvetica, sans-serif;
+      text-transform: uppercase; }
+    #privacy #columns div {
+      text-align: justify; }
+      @media screen and (max-width: 768px) {
+        #privacy #columns div {
+          text-align: left; } }
+      #privacy #columns div h2 {
+        font-family: "Proxima", "Open+Sans", Helvetica, sans-serif;
+        font-size: 1.8em;
+        margin-top: 3em; }
+      #privacy #columns div p {
+        font-size: 1.2em;
+        margin: 2em 0 9px; }
+      #privacy #columns div #reg {
+        margin-top: 5em; }
+      #privacy #columns div ul {
+        list-style: outside;
+        padding-left: 25px; }
+        #privacy #columns div ul li {
+          font-size: 1.2em;
+          margin: 1em auto; }
+    #privacy #columns #international {
+      display: block;
+      position: relative;
+      top: -4em;
+      visibility: hidden; }
+
+/*# sourceMappingURL=privacy.css.map */

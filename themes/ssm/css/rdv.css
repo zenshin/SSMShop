@@ -14,27 +14,67 @@
   src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
 #rdv h1 {
   text-align: center;
   font-family: "Proxima", "Catamaran", sans-serif;
   font-size: 2.5em;
-  padding: 5em 0;
+  padding: 2em 0;
   text-transform: uppercase; }
 #rdv h2 {
   margin-left: 2em;
-  font-family: "Proxima", "Catamaran", sans-serif; }
-#rdv h3 {
-  color: #a98f5c;
-  margin: 0 15%;
   font-family: "Proxima", "Catamaran", sans-serif;
-  font-size: 2em;
-  text-align: center; }
+  color: #a39161; }
+#rdv h3 {
+  color: #a39161;
+  margin: 3% 16%;
+  font-family: "Proxima", "Catamaran", sans-serif;
+  font-size: 1.6em;
+  text-align: center;
+  text-transform: none; }
 #rdv p {
   font-size: 1.2em;
   margin: 1em;
   line-height: 1.8em;
   font-family: "Proxima", "Roboto", sans-serif;
   text-align: justify; }
+#rdv form .clearfix.row {
+  margin: 1em !important; }
+#rdv form .contact-form-box textarea {
+  height: 187px !important; }
+#rdv form label {
+  text-transform: uppercase;
+  font-family: "Proxima-light", "Open+Sans", Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 900; }
+#rdv form input.form-control {
+  display: inline-block;
+  float: right; }
+#rdv form .form-control {
+  border: 1px solid #a39161; }
+#rdv form .submit {
+  display: inline-block;
+  text-align: center; }
+#rdv form div.selector {
+  font-size: 12px;
+  display: inline-block;
+  float: right;
+  width: 270px !important;
+  border: 1px solid #a39161; }
+  #rdv form div.selector span {
+    width: 259px !important;
+    background-position: right -163px;
+    color: #a39161; }
+#rdv #request {
+  display: block;
+  position: relative;
+  top: -80px;
+  visibility: hidden; }
 #rdv .pcenter {
   text-align: center;
   margin: 5em auto; }
@@ -45,6 +85,8 @@
   font-size: 1.2em; }
   #rdv .center .dike img {
     margin: 0 .5em; }
+#rdv .cont {
+  margin: 4em 0; }
 #rdv figure {
   padding: 0; }
 #rdv hr {
@@ -56,15 +98,19 @@
   height: 0; }
 #rdv #map {
   height: 50vh; }
-#rdv .map p {
-  font-size: 1.4em; }
-#rdv .button {
-  margin-bottom: 2em; }
-#rdv .contact-form-box .submit {
-  text-align: center; }
-#rdv .contact-form-box input.form-control {
-  display: inline-block;
-  float: right; }
+#rdv #card .info {
+  -moz-box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 13px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 13px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 13px;
+  height: 50vh;
+  margin: 0; }
+  #rdv #card .info h2,
+  #rdv #card .info h3,
+  #rdv #card .info p {
+    text-align: left;
+    margin-left: 0; }
+#rdv #card img {
+  max-width: 22vw; }
 #rdv .line {
   padding: 15px 0 0 0;
   border-top: 1px solid #515151;

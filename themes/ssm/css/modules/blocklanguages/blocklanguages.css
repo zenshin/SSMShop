@@ -14,9 +14,68 @@
   src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
 #languages-block-top {
   float: right;
   position: relative; }
+  #languages-block-top .five .button-wrap {
+    width: 82px;
+    margin: 5px 15px;
+    cursor: pointer; }
+  #languages-block-top .five .button-bg {
+    width: 70%;
+    height: 100%;
+    background-color: #7c6945;
+    border-radius: 40px;
+    padding: 0;
+    color: #fff;
+    transition: all 0.2s ease; }
+  #languages-block-top .five :hover.button-bg {
+    color: #fff; }
+  #languages-block-top .five .button-switch {
+    position: absolute;
+    left: 16px;
+    width: 32px;
+    height: 20px;
+    background-color: #fff;
+    /*border:solid 13px;*/
+    border-radius: 36px;
+    transition: all 0.2s ease; }
+  #languages-block-top .five .button-active .button-switch {
+    left: 40px; }
+  #languages-block-top .five .button-in,
+  #languages-block-top .five .button-out {
+    position: absolute;
+    transition: all 0.2s ease;
+    padding-top: 3px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold; }
+  #languages-block-top .five .button-in a {
+    margin-left: 35px;
+    color: #fff; }
+  #languages-block-top .five .button-out a {
+    margin-left: 8px;
+    color: #fff; }
+  #languages-block-top .five .button-active .button-out a {
+    color: #fff; }
+  #languages-block-top .five .button-active .button-in a {
+    color: #fff; }
+  #languages-block-top .five .button-active .button-bg {
+    background-color: #7c6945; }
+  #languages-block-top .five .button-bg div {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 0.8em; }
+  #languages-block-top .five .button-bg div a {
+    color: #fff; }
+  #languages-block-top .five .button-bg div:first-child {
+    margin: 0 15px 0 5px; }
   @media (max-width: 479px) {
     #languages-block-top {
       width: 25%; } }

@@ -19,8 +19,19 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Proxima-light';
+	src: url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff') format('woff'), url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima') format('svg'), url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot'), url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 //------- FONTS
 $font-family: 'Proxima',
+'Open+Sans',
+Helvetica,
+sans-serif;
+$font-thin: 'Proxima-light',
 'Open+Sans',
 Helvetica,
 sans-serif;
@@ -66,6 +77,10 @@ $light-text-color: #fff;
 $link-color: $link-color;
 $link-hover-color: $link-hover-color;
 $description-color: #666;
+$gold: #a39161;
+
+/*#7C6945*/
+
 //--------- Indents
 $base-page-indent: $grid-gutter-width;
 $base-box-padding: 14px 18px 13px;

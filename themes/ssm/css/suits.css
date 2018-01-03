@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:800");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'Great-Day-Personal-Use';
+  src: url("../fonts/Great-Day-Personal-Use.ttf.woff") format("woff"), url("../fonts/Great-Day-Personal-Use.ttf.svg#Great-Day-Personal-Use") format("svg"), url("../fonts/Great-Day-Personal-Use.ttf.eot"), url("../fonts/Great-Day-Personal-Use.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
+#suits header .nav #header_logo {
+  display: none; }
+#suits header .nav .row {
+  height: 1vh; }
+#suits #center_column {
+  padding: 0;
+  /* Parallax base styles */ }
+  #suits #center_column .parallax {
+    height: 500px;
+    /* fallback for older browsers */
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+    -webkit-perspective-origin-x: 100%;
+    perspective-origin-x: 100%; }
+    #suits #center_column .parallax .parallax__group {
+      position: relative;
+      height: 500px;
+      /* fallback for older browsers */
+      height: 100vh;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d; }
+      #suits #center_column .parallax .parallax__group .parallax__layer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        -webkit-transform-origin-x: 100%;
+        transform-origin-x: 100%; }
+      #suits #center_column .parallax .parallax__group .parallax__layer--fore {
+        -webkit-transform: translateZ(90px) scale(0.7);
+        transform: translateZ(90px) scale(0.7);
+        z-index: 1; }
+      #suits #center_column .parallax .parallax__group .parallax__layer--base {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        z-index: 4; }
+      #suits #center_column .parallax .parallax__group .parallax__layer--base.bg1 {
+        background: url("../img/suit-bg-1.jpg") no-repeat; }
+      #suits #center_column .parallax .parallax__group .parallax__layer--base.bg2 {
+        height: 115vh; }
+      #suits #center_column .parallax .parallax__group .parallax__layer--base.bg3 {
+        background: url("../img/pocket-bg-1.jpg") no-repeat; }
+      #suits #center_column .parallax .parallax__group .parallax__layer--back {
+        -webkit-transform: translateZ(-300px) scale(2);
+        transform: translateZ(-300px) scale(2);
+        z-index: 3; }
+      #suits #center_column .parallax .parallax__group .parallax__layer--back.bg-intro {
+        background-image: url("../img/suitsurmesurLisboa1.jpg"); }
+      #suits #center_column .parallax .parallax__group .parallax__layer--deep {
+        -webkit-transform: translateZ(-600px) scale(3);
+        transform: translateZ(-600px) scale(3);
+        z-index: 2; }
+@media (min-width: 768px) {
+  #suits .columns-container .container {
+    max-width: 100%;
+    height: 64vh; }
+    #suits .columns-container .container .row {
+      margin-left: 0 !important;
+      margin-right: 0 !important; } }
+@media screen and (max-width: 768px) {
+  #suits img.custom-logo {
+    left: 68vw; }
+  #suits .main h2 {
+    font-size: 1em; }
+  #suits .section p {
+    text-align: left; } }
+
+/*# sourceMappingURL=suits.css.map */

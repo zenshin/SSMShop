@@ -166,11 +166,12 @@ ul.sf-menu li li li.sfHover ul {
 	width: 20%;
 	>li {
 		>a {
+			text-transform: uppercase;
 			font: 600 16px;
 			font-family: $font-family;
 			color: $light-text-color;
 			&:hover {
-				color: $link-hover-color;
+				color: $gold;
 			}
 		}
 	}

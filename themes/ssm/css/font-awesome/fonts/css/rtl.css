@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+/********************************************************
+			Right to Left Styles
+********************************************************/
+* {
+  direction: rtl !important; }
+
+#page {
+  text-align: right !important; }
+
+/*# sourceMappingURL=rtl.css.map */

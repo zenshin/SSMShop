@@ -14,6 +14,12 @@
   src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
 /*******************************************************
 Product list Styles
 ********************************************************/
@@ -32,17 +38,17 @@ ul.product_list .color-list-container {
   ul.product_list .color-list-container ul li {
     display: inline-block;
     border: 1px solid #d6d4d4;
-    width: 26px;
-    height: 26px; }
+    width: 80px;
+    height: 80px; }
     ul.product_list .color-list-container ul li a {
       display: block;
-      width: 22px;
-      height: 22px;
+      width: 78px;
+      height: 78px;
       margin: 1px; }
       ul.product_list .color-list-container ul li a img {
         display: block;
-        width: 22px;
-        height: 22px; }
+        width: 78px;
+        height: 78px; }
 ul.product_list .product-image-container {
   text-align: center; }
   ul.product_list .product-image-container img {

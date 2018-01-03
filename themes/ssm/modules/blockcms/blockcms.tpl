@@ -23,6 +23,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
+{capture name=path}{l s='footer custom'}{/capture}
 {if $block == 1}
 	<!-- Block CMS module -->
 	{foreach from=$cms_titles key=cms_key item=cms_title}
@@ -67,84 +68,56 @@
 {else}
 
 	<!-- Block CMS module footer -->
-		<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
-	<h4>
-			<a href="{$link->getPageLink('artofmaking')|escape:'html':'UTF-8'}" title="{l s='Art of making' mod='art-of-making'}">
-				Art of making
-			</a>
-		</h4>
+<section class="footer-block col-xs-12 col-sm-2 col-sm-offset-1" id="block_various_links_footer">
+	<h4>{l s='legal' mod='blockcms'}</h4>
 		<ul class="toggle-footer">
 			<li class="item">
-					
-			</li>
-			</ul>
-		</section>
-	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
-	<h4>
-			<a href="{$link->getPageLink($contact_url, true)|escape:'html':'UTF-8'}" title="{l s='Contact us' mod='blockcms'}">
-				Media
-			</a>
-		</h4>
-		<ul class="toggle-footer">
-			<li class="item">
-					<a href="{$link->getPageLink('newsletter')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
-						Newsletter 
+					<a href="{$link->getPageLink('terms')|escape:'html':'UTF-8'}" title="{l s='Terms and conditions' mod=terms}">
+						{l s='terms' mod='blockcms'}
 					</a>
 			</li>
 			<li class="item">
-				<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
-						Global Events
-				</a>
+					<a href="{$link->getPageLink('privacy')|escape:'html':'UTF-8'}" title="{l s='Privacy Policy' mod=privacy}">
+						{l s='privacy' mod='blockcms'}
+					</a>
 			</li>
+		</ul>
+</section>
+	<section class="footer-block col-xs-12 col-sm-1" id="block_various_links_footer">
+	<h4>{l s='media' mod='blockcms'}</h4>
+		<ul class="toggle-footer">
 			<li class="item">
-				<a href="www.ucandoitfashion.com/" target="_blank">
+				<a href="http://www.ucandoitfashion.com/" target="_blank">
 						Blog
 				</a>
 			</li>
 		</ul>
 		</section>
 		<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
-	<h4>
-			<a href="{$link->getPageLink($contact_url, true)|escape:'html':'UTF-8'}" title="{l s='Contact us' mod='blockcms'}">
-				Testimonials
-			</a>
+	<h4>{l s='testim' mod='blockcms'}</a>
 		</h4>
 		<ul class="toggle-footer">
 			<li class="item">
-					<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
-						Customer Reviews
+					<a href="{$link->getPageLink('reviews')|escape:'html':'UTF-8'}">
+						{l s='reviews' mod='blockcms'}
 					</a>
 			</li>
 			</ul>
 		</section>
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 		<h4>{l s='Information' mod='blockcms'}</h4>
-		<ul class="toggle-footer">
-		<li class="item">
-					<a href="{$link->getPageLink('consultation')|escape:'html':'UTF-8'}" title="{l s='Private Tailoring Consultations' mod='consultation'}">
-						Private Tailoring Consultation
-					</a>
-				</li>
-					<li class="item">
-					<a href="{$link->getPageLink('overseas')|escape:'html':'UTF-8'}" title="{l s='Overseas visits' mod='overseas'}">
-						Overseas visits
+		<ul class="toggle-footer">				
+				<li class="item">
+					<a href="{$link->getPageLink('my-account', true)|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
+						{l s='account' mod='blockcms'}
 					</a>
 				</li>
 				<li class="item">
-					<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
-						Location
+					<a href="{$link->getPageLink('careers')|escape:'html':'UTF-8'}">
+						{l s='careers' mod='blockcms'}
 					</a>
-				</li>
-				<li class="item">
-					<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
-						Profile Account 
-					</a>
-				</li>
-				<li class="item">
-					<a href="{$link->getPageLink('terms')|escape:'html':'UTF-8'}" title="{l s='Terms and conditions' mod=terms}">
-						Terms & Conditions
-					</a>
-				</li>
+			</li>
+				
 			{if isset($show_price_drop) && $show_price_drop && !$PS_CATALOG_MODE}
 				<li class="item">
 					<a href="{$link->getPageLink('prices-drop')|escape:'html':'UTF-8'}" title="{l s='Specials' mod='blockcms'}">
@@ -197,12 +170,9 @@
 			</li>
 			{/if}
 		</ul>
-		
+		{$footer_text}
 	</section>
-
-				{$footer_text}
-
-	{if $display_poweredby}
+{if $display_poweredby}
 	<section class="bottom-footer col-xs-12">
 		<div>
 		<img class="logo-bot" src="/img/mrdike.png" alt="inspired by Mr. Dike">

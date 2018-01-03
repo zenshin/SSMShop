@@ -1,136 +1,152 @@
-@import "compass";
-@import "theme_variables";
-#consultation {
-    #center_column {
-        padding: 0;
-        a {
-            opacity: 0.6;
-        }
-        .jumbotron {
-            background: url("../img/elegant-garments.jpg") center bottom no-repeat;
-            height: 60vh;
-            margin-bottom: 4em;
-            h2,
-            {
+    @import "compass";
+    @import "theme_variables";
+    #consultation {
+        #center_column {
+            padding: 0;
+            a {
+                color: $gold;
+            }
+            .jumbotron {
+                background: url("../img/elegant-garments.jpg") center bottom no-repeat;
+                height: 60vh;
+                margin-bottom: 4em;
+                h2,
+                {
+                    text-align: center;
+                    color: #fff;
+                }
+            }
+            .row {
+                margin: 0;
+            }
+            .center {
+                .intro {
+                    border: 2px solid $gold;
+                    padding: .5em 0 2em;
+                    font-size: 1.5em;
+                    width: 70%;
+                    margin: 2em 15%;
+                }
+                .sentence1 {
+                    font-size: 1.3em;
+                    margin: 3em 4em 9px;
+                    font-style: italic;
+                }
+                p {
+                    text-align: center !important;
+                }
+                hr {
+                    margin: auto;
+                }
+            }
+            h1 {
                 text-align: center;
+                font-family: $font-cata;
+                font-size: 2.5em;
+                padding: 5em 0;
+                text-transform: uppercase;
                 color: #fff;
             }
-        }
-        .row {
-            margin: 0;
-        }
-        .center {
+            h2 {
+                margin-left: 2em;
+                font-family: $font-cata;
+            }
+            h3 {
+                color: $gold;
+                margin-left: 2em;
+                font-family: $font-cata;
+                font-size: 2em;
+            }
+            h4 {
+                color: $gold;
+                font-size: 1.8em;
+                text-align: center;
+                line-height: 1.6em;
+                font-family: $font-cata;
+                margin-top: 2em;
+            }
             p {
-                text-align: center !important;
+                font-size: 1.2em;
+                margin: 2em 4em 9px;
+                line-height: 1.8em;
+                font-family: $font-robo;
+                text-align: justify;
+            }
+            figure {
+                padding: 0;
+                .cloth {
+                    height: 70vh;
+                    width: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                }
+            }
+            .text {
+                padding-top: 3em;
             }
             hr {
-                margin: auto;
+                border-top: 2px solid #444;
+                width: 60px;
+                clear: both;
+                border-width: 1px 0 0;
+                margin: 20px 4em;
+                height: 0;
+            }
+            .last-mtm {
+                margin-top: 0;
+            }
+            .logos {
+                padding: 0 20vw;
+                margin: 0 0 5em 0;
+                list-style: none;
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-flex-flow: row wrap;
+                justify-content: space-around;
+                figure {
+                    margin: 0 20px;
+                    img {
+                        max-width: 135px;
+                    }
+                }
+            }
+            .center {
+                text-align: center;
+                margin: 4em 0;
+                h2,
+                h4 {
+                    margin: 0 0 1em;
+                }
+            }
+            button {
+                text-align: center;
+                display: block;
+                margin: 0 auto;
+                color: $gold;
+                border: 4px solid $gold;
+                background: #ffffff;
+                padding: 1em 2em;
+                font-size: 1.2em;
+            }
+            button:hover {
+                opacity: 0.6;
+            }
+            .measurement {
+                display: inline;
             }
         }
-        h1 {
-            text-align: center;
-            font-family: $font-cata;
-            font-size: 2.5em;
-            padding: 5em 0;
-            text-transform: uppercase;
-            color: #fff;
-        }
-        h2 {
-            margin-left: 2em;
-            font-family: $font-cata;
-        }
-        h3 {
-            color: #a98f5c;
-            margin-left: 2em;
-            font-family: $font-cata;
-            font-size: 2em;
-        }
-        h4 {
-            color: #a98f5c;
-            font-size: 1.8em;
-            text-align: center;
-            line-height: 1.6em;
-            font-family: $font-cata;
-            margin-top: 2em;
-        }
-        p {
-            font-size: 1.2em;
-            margin: 1 em;
-            line-height: 1.8em;
-            font-family: $font-robo;
-            text-align: justify;
-        }
-        figure {
-            padding: 0;
-            .cloth {
-                height: 70vh;
-                width: 100%;
-                object-fit: cover;
-                object-position: top;
-            }
-        }
-        .text {
-            padding-top: 3em;
-        }
-        hr {
-            border-top: 2px solid #444;
-            width: 60px;
-            clear: both;
-            border-width: 1px 0 0;
-            margin: 20px 4em;
-            height: 0;
-        }
-        .last-mtm {
-            margin-top: 0;
-        }
-        .logos {
-            padding: 0 20vw;
-            margin: 0 0 5em 0;
-            list-style: none;
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-flex-flow: row wrap;
-            justify-content: space-around;
-            figure {
-                margin: 0 20px;
-                img {
-                    max-width: 135px;
+        @media (min-width: 768px) {
+            .columns-container {
+                .container {
+                    max-width: 100%;
+                    .row {
+                        margin-left: 0 !important;
+                        margin-right: 0 !important;
+                    }
                 }
             }
         }
-        .center {
-            text-align: center;
-            margin: 4em 0;
-            h2,
-            h4 {
-                margin: 3em 0;
-            }
-        }
-        button {
-            text-align: center;
-            display: block;
-            margin: 0 auto;
-            color: #a98f5c;
-            border: 4px solid #a98f5c;
-            background: #ffffff;
-            padding: 1em 2em;
-            font-size: 1.2em;
-        }
-        button:hover {
-            opacity: 0.6;
-        }
-        .measurement {
-            display: inline;
-        }
     }
-    @media (min-width: 768px) {
-        .columns-container {
-            .container {
-                max-width: 100%;
-            }
-        }
-    }
-}

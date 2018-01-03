@@ -24,19 +24,12 @@
 *}
 <!-- Block languages module -->
 {if count($languages) > 1}
-	<div id="languages-block-top" class="languages-block">
-		{foreach from=$languages key=k item=language name="languages"}
-			{if $language.iso_code == $lang_iso}
-				<div class="current">
-					<!-- Flag image -->		
-			<img style="margin-right:5px;" src="{$img_lang_dir}{$language.id_lang}.jpg" alt="{$language.iso_code}" width="18" /><!-- /Flag image -->
-		<span>{$language.name|regex_replace:"/\s.*$/":""}</span>
-				</div>
-			{/if}
-		{/foreach}
-		<ul id="first-languages" class="languages-block_ul toogle_content">
+<div id="languages-block-top" class="languages-block">
+	<div id="first-languages" class="five languages-block_ul toogle_content">
+		<div class="button-wrap">
+			<div class="button-bg">
 			{foreach from=$languages key=k item=language name="languages"}
-				<li {if $language.iso_code == $lang_iso}class="selected"{/if}>
+				<div {if $language.iso_code == $lang_iso}class="selected"{/if}>
 				{if $language.iso_code != $lang_iso}
 					{assign var=indice_lang value=$language.id_lang}
 					{if isset($lang_rewrite_urls.$indice_lang)}
@@ -45,16 +38,21 @@
 						<a href="{$link->getLanguageLink($language.id_lang)|escape:'html':'UTF-8'}" title="{$language.name}">
 					{/if}
 				{/if}
-				<span><!-- Flag image -->
-				<img style="margin-right:5px;" src="{$img_lang_dir}{$language.id_lang}.jpg" alt="{$language.iso_code}" width="18" />
-				<!-- /Flag image-->
-				{$language.name|regex_replace:"/\s.*$/":""}</span>
+				<span>{$language.name|regex_replace:"/\s.*$/":""}</span>
 				{if $language.iso_code != $lang_iso}
 					</a>
 				{/if}
-				</li>
+				</div>
+					
 			{/foreach}
-		</ul>
+			{foreach from=$languages key=k item=language name="languages"}	
+				{if $language.iso_code != $lang_iso}
+				<a class="button-switch" href="{$link->getLanguageLink($language.id_lang)|escape:'html':'UTF-8'}" title="{$language.name}"></a>		
+				{/if}
+			{/foreach}
+			</div>
+		</div>
 	</div>
+</div>
 {/if}
 <!-- /Block languages module -->

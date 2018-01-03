@@ -14,6 +14,12 @@
   src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
 #madetomeasure #center_column {
   padding: 0; }
   #madetomeasure #center_column .jumbotron {
@@ -44,13 +50,13 @@
     margin-left: 2em;
     font-family: "Proxima", "Catamaran", sans-serif; }
   #madetomeasure #center_column h3 {
-    color: #a98f5c;
+    color: #a39161;
     margin: 0 15%;
     font-family: "Proxima", "Catamaran", sans-serif;
     font-size: 2em;
     text-align: center; }
   #madetomeasure #center_column h4 {
-    color: #a98f5c;
+    color: #a39161;
     font-size: 1.8em;
     text-align: center;
     line-height: 1.6em;
@@ -58,7 +64,7 @@
     margin-top: 2em; }
   #madetomeasure #center_column p {
     font-size: 1.2em;
-    margin: 1em;
+    margin: 0 4em 9px;
     line-height: 1.8em;
     font-family: "Proxima", "Roboto", sans-serif;
     text-align: justify; }
@@ -94,11 +100,13 @@
     text-align: center;
     display: block;
     margin: 0 auto;
-    color: #a98f5c;
-    border: 4px solid #a98f5c;
+    color: #a39161;
+    border: 4px solid #a39161;
     background: #ffffff;
     padding: 1em 2em;
     font-size: 1.2em; }
+    #madetomeasure #center_column button a {
+      text-transform: uppercase; }
   #madetomeasure #center_column button:hover {
     opacity: 0.6; }
 @media (min-width: 768px) {

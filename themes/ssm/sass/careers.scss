@@ -1,0 +1,37 @@
+@import "compass";
+@import "theme_variables";
+#careers {
+    .columns-container {
+        h1 {
+            text-align: center;
+            font-family: $font-cata;
+            font-size: 2.5em;
+            padding: 2em 0;
+            text-transform: uppercase;
+        }
+        h2 {
+            margin-left: 2em;
+            font-family: $font-cata;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 3em;
+            line-height: 1.8em;
+            font-family: $font-robo;
+            text-align: center;
+        }
+        figure img {
+            padding: 0;
+            width: 60%;
+            margin: 0 20%;
+        }
+        hr {
+            border-top: 2px solid #444;
+            width: 60px;
+            clear: both;
+            border-width: 1px 0 0;
+            margin: 20px 4em;
+            height: 0;
+        }
+    }
+}

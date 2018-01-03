@@ -14,6 +14,12 @@
   src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
 /* Block newsletter */
 #columns #newsletter_block_left .form-group {
   margin-bottom: 0; }
@@ -25,7 +31,8 @@
       #columns #newsletter_block_left .form-group .form-control {
         margin-bottom: 10px;
         margin-right: 0; } }
-#columns #newsletter_block_left .success_inline, #columns #newsletter_block_left .warning_inline {
+#columns #newsletter_block_left .success_inline,
+#columns #newsletter_block_left .warning_inline {
   text-align: left;
   padding: 1px 0 0 0;
   margin-bottom: -19px; }
@@ -37,7 +44,7 @@
 /* Block newsletter footer */
 #footer #newsletter_block_left {
   overflow: hidden;
-  width: 50%;
+  width: 40%;
   float: left;
   padding: 13px 15px 7px 15px;
   margin-bottom: 0; }

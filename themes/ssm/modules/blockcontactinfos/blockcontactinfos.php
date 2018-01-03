@@ -28,13 +28,15 @@
 if (!defined('_CAN_LOAD_FILES_'))
 	exit;
 	
-class Blockcontactinfos extends Module
+class BlockcontactinfosOverride extends Blockcontactinfos
 {
 	protected static $contact_fields = array(
 		'BLOCKCONTACTINFOS_COMPANY',
 		'BLOCKCONTACTINFOS_ADDRESS',
 		'BLOCKCONTACTINFOS_PHONE',
+		'BLOCKCONTACTINFOS_CELLPHONE',
 		'BLOCKCONTACTINFOS_EMAIL',
+		'BLOCKCONTACTINFOS_ENQUIRIES',
 	);
 
 	public function __construct()
@@ -57,7 +59,9 @@ class Blockcontactinfos extends Module
 		Configuration::updateValue('BLOCKCONTACTINFOS_COMPANY', Configuration::get('PS_SHOP_NAME'));
 		Configuration::updateValue('BLOCKCONTACTINFOS_ADDRESS', trim(preg_replace('/ +/', ' ', Configuration::get('PS_SHOP_ADDR1').' '.Configuration::get('PS_SHOP_ADDR2')."\n".Configuration::get('PS_SHOP_CODE').' '.Configuration::get('PS_SHOP_CITY')."\n".Country::getNameById(Configuration::get('PS_LANG_DEFAULT'), Configuration::get('PS_SHOP_COUNTRY_ID')))));
 		Configuration::updateValue('BLOCKCONTACTINFOS_PHONE', Configuration::get('PS_SHOP_PHONE'));
+		Configuration::updateValue('BLOCKCONTACTINFOS_CELLPHONE', Configuration::get('PS_SHOP_CELLPHONE'));
 		Configuration::updateValue('BLOCKCONTACTINFOS_EMAIL', Configuration::get('PS_SHOP_EMAIL'));
+		Configuration::updateValue('BLOCKCONTACTINFOS_ENQUIRIES', Configuration::get('PS_SHOP_ENQUIRIES'));
 		$this->_clearCache('blockcontactinfos.tpl');
 		return (parent::install() && $this->registerHook('header') && $this->registerHook('footer'));
 	}
@@ -122,8 +126,18 @@ class Blockcontactinfos extends Module
 					),
 					array(
 						'type' => 'text',
+						'label' => $this->l('Cell phone number'),
+						'name' => 'BLOCKCONTACTINFOS_CELLPHONE',
+					),
+					array(
+						'type' => 'text',
 						'label' => $this->l('Email'),
 						'name' => 'BLOCKCONTACTINFOS_EMAIL',
+					),
+					array(
+						'type' => 'text',
+						'label' => $this->l('Enquiries'),
+						'name' => 'BLOCKCONTACTINFOS_ENQUIRIES',
 					),
 				),
 				'submit' => array(

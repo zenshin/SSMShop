@@ -1,6 +1,73 @@
 @import "compass";
 @import "theme_variables";
 #languages-block-top {
+	.five .button-wrap {
+		width: 82px;
+		margin: 5px 15px;
+		cursor: pointer;
+	}
+	.five .button-bg {
+		width: 70%;
+		height: 100%;
+		background-color: #7c6945;
+		border-radius: 40px;
+		padding: 0;
+		color: #fff;
+		transition: all 0.2s ease;
+	}
+	.five :hover.button-bg {
+		color: #fff;
+	}
+	.five .button-switch {
+		position: absolute;
+		left: 16px;
+		width: 32px;
+		height: 20px;
+		background-color: #fff;
+		/*border:solid 13px;*/
+		border-radius: 36px;
+		transition: all 0.2s ease;
+	}
+	.five .button-active .button-switch {
+		left: 40px;
+	}
+	.five .button-in,
+	.five .button-out {
+		position: absolute;
+		transition: all 0.2s ease;
+		padding-top: 3px;
+		font-size: 0.8em;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.five .button-in a {
+		margin-left: 35px;
+		color: #fff;
+	}
+	.five .button-out a {
+		margin-left: 8px;
+		color: #fff;
+	}
+	.five .button-active .button-out a {
+		color: #fff;
+	}
+	.five .button-active .button-in a {
+		color: #fff;
+	}
+	.five .button-active .button-bg {
+		background-color: #7c6945;
+	}
+	.five .button-bg div {
+		display: inline;
+		text-transform: uppercase;
+		font-size: 0.8em;
+	}
+	.five .button-bg div a {
+		color: #fff;
+	}
+	.five .button-bg div:first-child {
+		margin: 0 15px 0 5px;
+	}
 	float: right;
 	position: relative; // max 479px
 	@media (max-width: $screen-xs - 1) {

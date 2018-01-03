@@ -14,6 +14,12 @@
   src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
 #terms {
   font-family: "Proxima", "Open+Sans", Helvetica, sans-serif; }
   #terms #columns {
@@ -30,14 +36,23 @@
           text-align: left; } }
       #terms #columns div h2 {
         font-family: "Proxima", "Open+Sans", Helvetica, sans-serif;
-        font-size: 1.8em; }
+        font-size: 1.8em;
+        margin-top: 3em; }
       #terms #columns div p {
-        font-size: 1.2em; }
+        font-size: 1.2em;
+        margin: 2em 0 9px; }
+      #terms #columns div #reg {
+        margin-top: 5em; }
       #terms #columns div ul {
         list-style: outside;
         padding-left: 25px; }
         #terms #columns div ul li {
           font-size: 1.2em;
           margin: 1em auto; }
+    #terms #columns #international {
+      display: block;
+      position: relative;
+      top: -4em;
+      visibility: hidden; }
 
 /*# sourceMappingURL=terms.css.map */

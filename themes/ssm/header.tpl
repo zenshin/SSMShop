@@ -79,26 +79,34 @@
 	<div id="page">
 			<div class="header-container">
 				<header id="header">
+					{capture name='displayBanner'}{hook h='displayBanner'}{/capture}
+					{if $smarty.capture.displayBanner}
+						<div class="banner">
+							<div class="container">
+								<div class="row">
+									{$smarty.capture.displayBanner}
+								</div>
+							</div>
+						</div>
+					{/if}
 					{capture name='displayNav'}{hook h='displayNav'}{/capture}
 					{if $smarty.capture.displayNav}
 						<div class="nav">
 							<div class="container-fluid">
-							<div id="header_logo">
+									<div id="header_logo">
 										<a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}">
 											<img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/>
 										</a>
 									</div>
 								<div class="row">
 									<div class="col-md-3 col-md-offset-9">
-										<nav>{$smarty.capture.displayNav}
-										</nav>
+										<nav>{$smarty.capture.displayNav}</nav>
 									</div>
 								</div>
 							</div>
 							{if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
 						</div>
 					{/if}
-					
 				</header>
 			</div>
 			<div class="curtain">

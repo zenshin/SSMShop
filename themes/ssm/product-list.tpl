@@ -151,9 +151,7 @@
 					</div>
 					{/if}
 					
-					{if isset($product.color_list)}
-						<div class="color-list-container">{$product.color_list}</div>
-					{/if}
+				
 					<div class="product-flags">
 						{if (!$PS_CATALOG_MODE AND ((isset($product.show_price) && $product.show_price) || (isset($product.available_for_order) && $product.available_for_order)))}
 							{if isset($product.online_only) && $product.online_only}

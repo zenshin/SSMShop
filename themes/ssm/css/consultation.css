@@ -14,10 +14,16 @@
   src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Proxima-light';
+  src: url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#Proxima") format("svg"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot"), url("../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+/*#7C6945*/
 #consultation #center_column {
   padding: 0; }
   #consultation #center_column a {
-    opacity: 0.6; }
+    color: #a39161; }
   #consultation #center_column .jumbotron {
     background: url("../img/elegant-garments.jpg") center bottom no-repeat;
     height: 60vh;
@@ -27,6 +33,16 @@
       color: #fff; }
   #consultation #center_column .row {
     margin: 0; }
+  #consultation #center_column .center .intro {
+    border: 2px solid #a39161;
+    padding: .5em 0 2em;
+    font-size: 1.5em;
+    width: 70%;
+    margin: 2em 15%; }
+  #consultation #center_column .center .sentence1 {
+    font-size: 1.3em;
+    margin: 3em 4em 9px;
+    font-style: italic; }
   #consultation #center_column .center p {
     text-align: center !important; }
   #consultation #center_column .center hr {
@@ -42,12 +58,12 @@
     margin-left: 2em;
     font-family: "Proxima", "Catamaran", sans-serif; }
   #consultation #center_column h3 {
-    color: #a98f5c;
+    color: #a39161;
     margin-left: 2em;
     font-family: "Proxima", "Catamaran", sans-serif;
     font-size: 2em; }
   #consultation #center_column h4 {
-    color: #a98f5c;
+    color: #a39161;
     font-size: 1.8em;
     text-align: center;
     line-height: 1.6em;
@@ -55,7 +71,7 @@
     margin-top: 2em; }
   #consultation #center_column p {
     font-size: 1.2em;
-    margin: 1 em;
+    margin: 2em 4em 9px;
     line-height: 1.8em;
     font-family: "Proxima", "Roboto", sans-serif;
     text-align: justify; }
@@ -97,13 +113,13 @@
     margin: 4em 0; }
     #consultation #center_column .center h2,
     #consultation #center_column .center h4 {
-      margin: 3em 0; }
+      margin: 0 0 1em; }
   #consultation #center_column button {
     text-align: center;
     display: block;
     margin: 0 auto;
-    color: #a98f5c;
-    border: 4px solid #a98f5c;
+    color: #a39161;
+    border: 4px solid #a39161;
     background: #ffffff;
     padding: 1em 2em;
     font-size: 1.2em; }
@@ -113,6 +129,9 @@
     display: inline; }
 @media (min-width: 768px) {
   #consultation .columns-container .container {
-    max-width: 100%; } }
+    max-width: 100%; }
+    #consultation .columns-container .container .row {
+      margin-left: 0 !important;
+      margin-right: 0 !important; } }
 
 /*# sourceMappingURL=consultation.css.map */

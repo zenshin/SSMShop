@@ -29,6 +29,13 @@ $(document).ready(function () {
 	if ($('body').not('#category')) {
 		$('#search_block_top').addClass('hidden');
 	};
+	if ($('body').hasClass('lang_fr')) {
+		$('.button-wrap').addClass('button-active');
+	};
+	$('.button-wrap').on("click", function () {
+		$(this).toggleClass('button-active');
+	});
+
 
 	highdpiInit();
 	responsiveResize();

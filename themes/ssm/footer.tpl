@@ -41,5 +41,6 @@
 			{/if}
 		</div><!-- #page -->
 {/if}
+{include file="$tpl_dir./global.tpl"}
 	</body>
 </html>

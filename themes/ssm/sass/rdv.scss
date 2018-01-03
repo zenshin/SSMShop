@@ -5,19 +5,21 @@
         text-align: center;
         font-family: $font-cata;
         font-size: 2.5em;
-        padding: 5em 0;
+        padding: 2em 0;
         text-transform: uppercase;
     }
     h2 {
         margin-left: 2em;
         font-family: $font-cata;
+        color: $gold;
     }
     h3 {
-        color: #a98f5c;
-        margin: 0 15%;
-        font-family: $font-cata;
-        font-size: 2em;
+        color: $gold;
+        margin: 3% 16%;
+        font-family: "Proxima", "Catamaran", sans-serif;
+        font-size: 1.6em;
         text-align: center;
+        text-transform: none;
     }
     p {
         font-size: 1.2em;
@@ -25,6 +27,51 @@
         line-height: 1.8em;
         font-family: $font-robo;
         text-align: justify;
+    }
+    form {
+        .clearfix.row {
+            margin: 1em !important;
+        }
+        .contact-form-box {
+            textarea {
+                height: 187px !important;
+            }
+        }
+        label {
+            text-transform: uppercase;
+            font-family: $font-thin;
+            font-size: 13px;
+            font-weight: 900;
+        }
+        input.form-control {
+            display: inline-block;
+            float: right;
+        }
+        .form-control {
+            border: 1px solid $gold;
+        }
+        .submit {
+            display: inline-block;
+            text-align: center;
+        }
+        div.selector {
+            font-size: 12px;
+            display: inline-block;
+            float: right;
+            width: 270px!important;
+            border: 1px solid #a39161;
+            span {
+                width: 259px!important;
+                background-position: right -163px;
+                color: $gold;
+            }
+        }
+    }
+    #request {
+        display: block;
+        position: relative;
+        top: -80px;
+        visibility: hidden;
     }
     .pcenter {
         text-align: center;
@@ -42,6 +89,9 @@
             font-size: 1.2em;
         }
     }
+    .cont {
+        margin: 4em 0;
+    }
     figure {
         padding: 0;
     }
@@ -56,20 +106,23 @@
     #map {
         height: 50vh;
     }
-    .map {
-        p {
-            font-size: 1.4em;
+    #card {
+        .info {
+            -moz-box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 13px;
+            -webkit-box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 13px;
+            box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 13px;
+            height: 50vh;
+            margin: 0;
+            h2,
+            h3,
+            p {
+                text-align: left;
+                margin-left: 0;
+            }
         }
-    }
-    .button {
-        margin-bottom: 2em;
-    }
-    .contact-form-box .submit {
-        text-align: center;
-    }
-    .contact-form-box input.form-control {
-        display: inline-block;
-        float: right;
+        img {
+            max-width: 22vw;
+        }
     }
     .line {
         padding: 15px 0 0 0;
